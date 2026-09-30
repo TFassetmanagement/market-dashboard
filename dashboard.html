@@ -10,6 +10,18 @@ body{margin:0;padding:24px;background:var(--bg);color:var(--ink);
 font-family:-apple-system,"PingFang SC","Microsoft YaHei",Helvetica,Arial,sans-serif;
 line-height:1.65;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1080px;margin:0 auto}
+.th{background:#fff;border:1px solid var(--line);border-left:4px solid #0ea5e9;
+border-radius:10px;padding:12px 15px;margin-bottom:10px}
+.thhead{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.tname{font-weight:700;font-size:15px}
+.tstat{font-size:12px;padding:1px 9px;border:1px solid;border-radius:20px;font-weight:600}
+.tsince{font-size:12px;color:var(--ink3)}
+.tdesc{margin-top:6px;font-size:13.5px;color:var(--ink2)}
+.tso{margin-top:5px;font-size:13px;color:#0f766e;background:#f0fdfa;
+border-radius:6px;padding:6px 9px}
+.cont{font-size:11px;background:#eef2ff;color:#4338ca;padding:1px 7px;
+border-radius:4px;font-weight:600}
+.so{color:#0f766e}
 h1{font-size:24px;margin:0 0 4px}
 h2{font-size:17px;margin:28px 0 12px;padding-left:10px;border-left:4px solid #2563eb}
 .sub{color:var(--ink3);font-size:13px;margin-bottom:6px}
@@ -44,87 +56,150 @@ color:var(--ink3);font-size:12px}
 @media(max-width:640px){body{padding:14px}.tt{min-width:100%}}
 </style></head><body><div class="wrap">
 <h1>宏观 · 油价 · 科技 事件看板</h1>
-<div class="sub">窗口：2026-09-29 21:30 → 2026-09-30 08:30　｜　生成时间：2026-09-30 08:45</div>
-<div class="headline"><b>美联储鹰派表态与疲弱消费数据主导，油价回落缓冲通胀预期，美股在半导体反弹中小幅收跌</b></div>
-<h2>一、市场快照</h2>
-<div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>96.05</td><td class='num'><span class="down">-0.12%</span></td></tr><tr><td>WTI原油</td><td class='num'>89.31</td><td class='num'><span class="down">-0.08%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,210.89</td><td class='num'><span class="up">+0.75%</span></td></tr><tr><td>纽约白银</td><td class='num'>61.72</td><td class='num'><span class="up">+0.92%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,830.45</td><td class='num'><span class="up">+0.18%</span></td></tr><tr><td>深证成指</td><td class='num'>12,901.95</td><td class='num'><span class="up">+0.34%</span></td></tr><tr><td>创业板指</td><td class='num'>3,142.56</td><td class='num'><span class="up">+0.09%</span></td></tr><tr><td>科创50</td><td class='num'>1,569.34</td><td class='num'><span class="up">+0.86%</span></td></tr><tr><td>沪深300</td><td class='num'>4,345.21</td><td class='num'><span class="up">+0.10%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,523.57</td><td class='num'><span class="down">-0.48%</span></td></tr><tr><td>国企指数</td><td class='num'>8,178.81</td><td class='num'><span class="down">-0.46%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,349.92</td><td class='num'><span class="down">-0.26%</span></td></tr><tr><td>纳斯达克</td><td class='num'>26,797.54</td><td class='num'><span class="down">-0.09%</span></td></tr><tr><td>标普500</td><td class='num'>7,670.84</td><td class='num'><span class="down">-0.17%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债2年</td><td class='num'>4.92%</td><td class='num'><span class="up">+0.11pp</span></td><td class='dim'>2026-09-28</td></tr></table></div></div>
-<div class="sanity ok">数据校验：布伦特−WTI价差 <b>6.74</b> 美元（正常区间 4~6 美元）— OK</div>
-<h2>二、事件时间线（按重要程度评星）</h2>
-<div class="ev">
-  <div class="evhead">
-    <span class="time">09-29 22:00</span>
-    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
-    <span class="tt">美国9月消费者信心指数骤降至81.9，创2014年以来最低</span>
+<div class="sub">窗口：2026-09-29 21:30 → 2026-09-30 08:30　｜　生成时间：2026-09-30 09:52</div>
+<div class="headline"><b>油价供给溢价快速消退，把10月加息概率从七成打回五成；但美债长端仍在创二十年新高——压通胀的代价正从能源端转向需求端，这是滞胀交易而非复苏交易，股市的下跌是估值的而非盈利的。</b></div>
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>96.53</td><td class='num'><span class="up">+0.39%</span></td></tr><tr><td>WTI原油</td><td class='num'>89.57</td><td class='num'><span class="up">+0.21%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,201.36</td><td class='num'><span class="up">+0.52%</span></td></tr><tr><td>纽约白银</td><td class='num'>61.40</td><td class='num'><span class="up">+0.40%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,843.51</td><td class='num'><span class="up">+0.34%</span></td></tr><tr><td>深证成指</td><td class='num'>12,941.82</td><td class='num'><span class="up">+0.31%</span></td></tr><tr><td>创业板指</td><td class='num'>3,164.46</td><td class='num'><span class="up">+0.70%</span></td></tr><tr><td>科创50</td><td class='num'>1,566.29</td><td class='num'><span class="down">-0.19%</span></td></tr><tr><td>沪深300</td><td class='num'>4,358.44</td><td class='num'><span class="up">+0.30%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,428.79</td><td class='num'><span class="down">-0.39%</span></td></tr><tr><td>国企指数</td><td class='num'>8,146.15</td><td class='num'><span class="down">-0.40%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,349.92</td><td class='num'><span class="down">-0.26%</span></td></tr><tr><td>纳斯达克</td><td class='num'>26,797.54</td><td class='num'><span class="down">-0.09%</span></td></tr><tr><td>标普500</td><td class='num'>7,670.84</td><td class='num'><span class="down">-0.17%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.24%</td><td class='num'><span class="up">+0.07pp</span></td><td class='dim'>2026-09-28</td></tr><tr><td>美债2年</td><td class='num'>4.92%</td><td class='num'><span class="up">+0.11pp</span></td><td class='dim'>2026-09-28</td></tr><tr><td>美债30年</td><td class='num'>5.56%</td><td class='num'><span class="up">+0.07pp</span></td><td class='dim'>2026-09-28</td></tr></table></div></div><div class="sanity ok">数据校验：布伦特−WTI价差 <b>6.96</b> 美元（正常区间 4~6 美元）— OK</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+  <div class="thhead">
+    <span class="tname">美联储加息路径与美债长端</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 09-16</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：威廉姆斯称年内或再加息一次但「无需急于行动」，Evercore解读为倾向跳过10月、12月再加；巴尔反向称「很可能需要更多次加息」。CME口径10月加息概率自约70%降至近50%。美债2年回落5.82bp至4.872%，但30年仍上行2.04bp至5.567%（盘中5.619%，2002年6月来最高），10年收5.232%（本月第8次刷新2007年来新高）。</div>
+  <div class="tso"><b>对定价的含义：</b>加息时点后移不等于方向转向。短端回落反映「时点」定价，长端不降反升反映「期限溢价与通胀中枢」定价——真正压制高估值成长股的是后者。对算力链、长长久期成长股的估值压制不会因为10月不加息而解除。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">中东供应修复与油价溢价消退</span>
+    <span class="tstat" style="color:#16a34a;border-color:#16a34a">缓和</span>
+    <span class="tsince">起于 09-24</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：四重供给利空共振——沙特恢复红海原油出口、美国拟以「出借」形式释放至多4000万桶战略石油储备、俄罗斯原油出口升至8月初来新高、北海11月装船量增加，叠加API库存超预期与美伊谈判缓和信号。布伦特9月29日收95.69美元（-2.98%），WTI收88.93美元（-4.66%），均创8月底以来低位。OPEC+周日会议预计维持11月配额不变。</div>
+  <div class="tso"><b>对定价的含义：</b>这是本轮通胀叙事中第一个实质性松动项。若供应修复持续，能源对CPI的推动会明显减弱，给美联储留出观望空间——这正是加息概率降温的基本面来源。反向风险：美伊谈判若破裂，溢价会快速回补，油价94–101区间上沿仍在。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">AI智能体商业化与OpenAI发布节奏</span>
+    <span class="tstat" style="color:#2563eb;border-color:#2563eb">推进</span>
+    <span class="tsince">起于 09-20</span>
     <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
   </div>
-  <div class="desc">世界大型企业研究会(Conference Board)公布，美国9月消费者信心指数从8月修正后的88.6下降6.7点至81.9，远低于经济学家预期的89，为2014年4月以来最低。消费者对当前商业和就业市场的评估指数降7.9点至109.3，预期指数降5.9点至63.6；劳动力市场差值（认为工作充足vs难找）收窄2.5个百分点至1.7%。调查时间为9月1日至23日，受访者频繁提及油气价格高企。</div>
-  <div class="meta"><b>市场反应：</b>道指一度跌逾0.6%，收盘仍跌0.26%；消费者必需品与医疗保健板块承压；强化了经济降温与消费疲软的叙事，但并未改变市场对10月加息的定价。 </div>
-  <div class="meta dim"><b>来源：</b>AP、CNBC、华尔街日报</div>
-</div><div class="ev">
-  <div class="evhead">
-    <span class="time">09-29 22:00</span>
-    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
-    <span class="tt">美国8月JOLTS职位空缺降至708万，低于预期</span>
+  <div class="tdesc"><b>本期增量：</b>本期增量：OpenAI DevDay发布全天候在线智能体dots（GPT-6 Astra驱动，接入Teams/Slack，支持语音通话），同时披露ChatGPT周活超12亿（7月为10亿）、企业与Codex周活超3500万、企业客户250万家，并推出每月500美元Pro套餐。Anthropic IPO招股书经路透确认，目标估值超2万亿美元并附80页风险警告。</div>
+  <div class="tso"><b>对定价的含义：</b>智能体从概念进入规模化分发，且已跑出可验证的收入结构（12亿周活、250万企业客户）。这意味着推理侧与CPU/边缘算力的需求有真实终端支撑，而非仅靠训练资本开支。对算力链是分母（估值）受压、分子（需求）仍在扩张的组合。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">中美经贸与AI芯片准入</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 09-24</span>
     <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
   </div>
-  <div class="desc">美国劳工统计局公布，8月职位空缺数降至708万，较7月修正后的733.6万减少25.6万，低于市场预期的720万；专业和商业服务、医疗保健行业降幅明显。招聘人数小幅上升，辞职率基本持平，裁员略有下降。</div>
-  <div class="meta"><b>市场反应：</b>与消费信心数据一同指向劳动力市场边际降温；数据公布后美债短端收益率回落，长端收益率维持高位，市场对经济软着陆与再加息之间的博弈加剧。 </div>
-  <div class="meta dim"><b>来源：</b>CNBC、Dow Jones</div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：据The Information，工信部询问阿里、字节对英伟达RTX Pro 5500的采购计划，北京或放宽自设限制、允许未来一年进口数百万颗。此前中美元首峰会未触及出口管制，贸易休战仅延长两个月至2027年1月10日。</div>
+  <div class="tso"><b>对定价的含义：</b>对国内算力供给是边际利好，但性质是「中方单方面松绑」而非美方放宽，且休战窗口只有两个月。2027年1月之后仍是定价真空，任何依赖进口算力的扩产计划都要按窗口期折价。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">A股节前流动性与节后回补</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-28</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：9月30日为国庆前最后一个交易日。上一交易日两市成交1.41万亿元创14个月地量，两融连续3日降仓。今早开盘上证3843.51（+0.34%）、创业板3164.46（+0.70%），科创50逆势-0.19%，恒指24428.79（-0.39%）。</div>
+  <div class="tso"><b>对定价的含义：</b>节前缩量是杠杆资金主动撤退，属筹码出清而非风险偏好崩塌。历史上这个位置节前跌、节后回补是常态，但科创50与主板背离说明资金在算力链内部仍在调仓，节后方向取决于美债长端能否回落。</div>
+</div><h2>三、本期事件时间线（按重要程度评星）</h2><div class="ev">
+  <div class="evhead">
+    <span class="time">09-29 21:30</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">美国9月消费者信心骤降至81.9，创2014年4月以来最低</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">世界大型企业研究会数据，连续第三个月环比下滑（8月修正后88.6）。现状指数回落7.9至109.3，预期指数降5.9至63.6。官方归因于美联储加息与地缘紧张。</div>
+  <div class="meta"><b>市场反应：</b>数据公布后美股承压走低，但跌幅被随后的加息预期降温部分对冲，标普最终仅收跌0.17%。 </div>
+  <div class="meta so"><b>对定价的含义：</b>消费端连续三月走弱而通胀中枢未降，「需求萎缩换通胀回落」的路径正在被数据确认。这支撑长端利率高位、压制顺周期与可选消费的相对表现。</div>
+  <div class="meta dim"><b>来源：</b>第一财经、中新经纬、财联社</div>
 </div><div class="ev">
   <div class="evhead">
-    <span class="time">09-29 23:00</span>
-    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
-    <span class="tt">美联储官员集体放鹰，威廉姆斯称9月加息后无需急于行动</span>
-    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+    <span class="time">09-29 22:30</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">四重供给利空共振，油价单日重挫：布伦特-2.98%，WTI-4.66%</span>
+    
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
   </div>
-  <div class="desc">美联储理事迈克尔·巴尔在底特律表示，能源价格和AI投资使通胀回归2%的进程偏离轨道，基准情形下需进一步政策调整；纽约联储主席约翰·威廉姆斯在布法罗称，若经济按预期演进，年底或再加息一次，但9月加息后没有必要急于行动；芝加哥联储主席古尔斯比称通胀持续高于目标5.5年是玩火。</div>
-  <div class="meta"><b>市场反应：</b>10年期美债收益率盘中触及5.29%，30年期触及5.62%（2002年以来新高）；CME FedWatch显示，威廉姆斯讲话后市场定价的10月加息概率从逾70%骤降至约49%—51%；美元指数维持101.3附近。 </div>
-  <div class="meta dim"><b>来源：</b>路透、彭博、InvestingLive</div>
+  <div class="desc">沙特恢复红海原油出口、美国拟以出借形式释放至多4000万桶战略储备、俄罗斯原油出口升至8月初以来新高、北海11月装船量增加，叠加API原油库存超预期增加与美伊谈判缓和信号。布伦特收95.69美元、WTI收88.93美元，均创8月底以来低位。</div>
+  <div class="meta"><b>市场反应：</b>跨资产同步：能源股全线收跌（斯伦贝谢-3%、西方石油-2%、雪佛龙-0.95%、埃克森美孚-0.69%）；通胀预期回落直接压低加息概率；WTI跌幅大于布伦特，两者价差自高位收敛至约6.8美元。 </div>
+  <div class="meta so"><b>对定价的含义：</b>这是本轮再通胀叙事中第一个真实松动的环节，也是利率见顶的必要条件。但它由供给驱动而非需求走弱，若美伊谈崩则溢价快速回补——交易上应把它当作可逆变量，不构成趋势性做空能源的理由。</div>
+  <div class="meta dim"><b>来源：</b>陆家嘴财经早餐、中新经纬、财联社</div>
 </div><div class="ev">
   <div class="evhead">
     <span class="time">09-29 23:30</span>
-    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
-    <span class="tt">美伊继续就霍尔木兹海峡「七日方案」间接磋商，中东原油出口回升</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">威廉姆斯「年内或再加一次但不急于行动」，10月加息概率自70%跌至近50%</span>
+    
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="desc">纽约联储主席威廉姆斯在布法罗讲话称9月已行动、无需急于推进，但为推动通胀及时回归目标，年内再上调一次或是合适的。Evercore解读为倾向跳过10月、12月实施。美联储理事巴尔同日表态更鹰：很可能需要更多次加息。</div>
+  <div class="meta"><b>市场反应：</b>CME FedWatch显示10月28日加息概率自约70%骤降至近50%；2年期美债收益率回落5.82bp至4.872%，为当日各期限最大降幅；美元仍走强，欧元兑美元跌至16个月最低。 </div>
+  <div class="meta so"><b>对定价的含义：</b>官员内部分歧本身是政策不确定性的来源。市场只交易了「时点推迟」，没有交易「终点更高」——两者对估值的含义相反。若12月加息落地且2027年路径上移，当前这轮修复会被证伪。</div>
+  <div class="meta dim"><b>来源：</b>第一财经、财联社、腾讯新闻</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">09-30 00:00</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">美债长端继续创纪录：30年盘中5.619%为2002年6月来最高</span>
+    
     <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
   </div>
-  <div class="desc">伊朗外长阿拉格齐表示，已通过卡塔尔调解方向美国转交重开霍尔木兹海峡的条件与方案，预计9月29日收到美方最终回应；美方此前已拒绝该方案，但未关闭谈判窗口。同期，沙特东西输油管道恢复至约350万桶/日，Kpler数据显示中东原油出口已回升至2月开战以来峰值的近八成。</div>
-  <div class="meta"><b>市场反应：</b>油价日内大幅回落，WTI主力合约收跌3.4%—3.95%报约89.3美元/桶，布伦特回落至96美元附近；能源板块跌幅居前，通胀预期阶段性降温带动短端美债收益率下行。 </div>
-  <div class="meta dim"><b>来源：</b>新华社、路透、新华财经</div>
+  <div class="desc">30年期收益率盘中升破5.6%，收5.567%（+2.04bp）；10年期盘中触及5.293%、收5.232%，本月第8次刷新2007年6月以来新高；短端则因加息预期降温而回落。</div>
+  <div class="meta"><b>市场反应：</b>曲线陡峭化：短端跌、长端涨。金融股成为最大受害者——标普金融板块9月跌超6%，有望创2023年3月以来最差单月，黑石9月暴跌21%、贝莱德跌8%、摩根士丹利连续第六日下跌（2024年初以来最长连跌）。 </div>
+  <div class="meta so"><b>对定价的含义：</b>长端上行+油价下跌同时发生，说明债市抛售的驱动已从能源通胀切换为期限溢价与AI资本开支刚性。修复条件因此不是「等油价跌」，而是等经济动能进一步走弱或AI融资端出现裂缝。金融股的连跌是高利率对资本成本的直接传导，值得作为利率的同步指标跟踪。</div>
+  <div class="meta dim"><b>来源：</b>财联社、第一财经、网易财经</div>
 </div><div class="ev">
   <div class="evhead">
     <span class="time">09-30 01:00</span>
     <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
-    <span class="tt">FHFA将VantageScore纳入房贷定价，FICO股价暴跌约27%</span>
+    <span class="tt">OpenAI DevDay发布dots智能体，ChatGPT周活突破12亿</span>
+    
     <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
   </div>
-  <div class="desc">美国联邦住房金融局(FHFA)宣布，房利美和房地美将采用单一贷款级别定价调整网格，同时纳入FICO Classic与VantageScore 4.0，终结FICO在机构抵押贷款评分中的准垄断地位；Rocket Mortgage已表示将从四季度起将VantageScore设为默认评分。</div>
-  <div class="meta"><b>市场反应：</b>Fair Isaac(FICO)收跌约26%—27%，创六年多最大单日跌幅，市值蒸发约四分之一；TransUnion跌超6%，Equifax跌约4.6%；事件成为当日最显着的个股冲击，金融科技板块的监管溢价被快速重估。 </div>
-  <div class="meta dim"><b>来源：</b>华尔街日报、Dow Jones、NextFin</div>
+  <div class="desc">旧金山开发者日发布全天候在线智能体dots，由GPT-6 Astra驱动，接入Microsoft Teams与Slack并支持语音通话，即日向Pro与Business Premium用户开放。同时公布ChatGPT周活超12亿、企业与Codex周活超3500万、企业客户250万家，并推出每月500美元的Pro套餐。</div>
+  <div class="meta"><b>市场反应：</b>发布会本身未直接推动二级市场，但存储与半导体当晚走强（费半+1.32%，ARM+3.65%、阿斯麦+3%、台积电+0.91%），智能体对CPU与推理算力的需求预期是背景之一。 </div>
+  <div class="meta so"><b>对定价的含义：</b>12亿周活与250万企业客户把智能体的商业化从叙事变成可验证数字，推理侧需求获得终端支撑。对投资的含义是：算力需求的分子仍在扩张，当前算力链的矛盾在分母（利率与拥挤度），不在需求端。</div>
+  <div class="meta dim"><b>来源：</b>IT之家、智东西</div>
 </div><div class="ev">
   <div class="evhead">
     <span class="time">09-30 04:00</span>
     <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
-    <span class="tt">美股三大指数小幅收跌，半导体板块反弹</span>
+    <span class="tt">美股三连跌后小幅收跌，中概股与大型科技股分化</span>
+    
     <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
   </div>
-  <div class="desc">美东时间9月29日，道指跌0.26%报51349.92点，标普500跌0.17%报7670.84点，纳指跌0.09%报26797.54点。半导体板块反弹，费城半导体指数涨约1.3%，英伟达涨约1%，台积电涨0.5%，Meta涨3.3%；苹果跌2.7%，特斯拉跌1.3%。NYSE涨跌家数比约1589:1130，Nasdaq约2650:1802，市场广度持续恶化。</div>
-  <div class="meta"><b>市场反应：</b>三大指数连续第二日收跌，但尾盘从日低反弹；半导体与AI硬件龙头抵消了长端收益率上行和FICO暴跌的拖累，呈现出典型的大盘龙头带动的狭窄领涨格局。 </div>
-  <div class="meta dim"><b>来源：</b>Dow Jones、新浪财经、Waverider</div>
+  <div class="desc">道指-0.26%报51349.92、标普-0.17%报7670.84、纳指-0.09%报26797.54，连续两个交易日收跌。苹果-2.66%、特斯拉-1.29%、英伟达-0.72%；Meta+3.26%、亚马逊+0.21%。费半逆势+1.32%。纳斯达克中国金龙指数-1.55%。</div>
+  <div class="meta"><b>市场反应：</b>指数跌幅温和但内部分化剧烈：金融与能源领跌，半导体逆势上涨，中概股普遍走弱（蔚来-5%、小鹏-5%、理想-4%）。9月累计道指-3.6%、标普-0.2%、纳指+1.5%。 </div>
+  <div class="meta so"><b>对定价的含义：</b>「指数小跌、结构极窄」是高利率环境的典型形态：资金向有现金流与定价权的核心资产收缩，放弃高估值弹性。中概股与A股昨日背离后今日又同步走弱，说明中国资产的短期驱动仍在外围利率而非国内政策。</div>
+  <div class="meta dim"><b>来源：</b>财联社、中新经纬、第一财经</div>
 </div><div class="ev">
   <div class="evhead">
-    <span class="time">09-30 04:00</span>
+    <span class="time">09-30 05:00</span>
     <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
-    <span class="tt">嘉年华集团Q3财报超预期，股价大涨约13%</span>
+    <span class="tt">油价大跌、地缘缓和的同一天，黄金逆势涨1.12%至4215美元</span>
+    
     <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
   </div>
-  <div class="desc">Carnival公布第三财季业绩：调整后EPS 1.43美元，高于预期的1.35美元；营收84.4亿美元，同比增长3.5%并创纪录；客户定金达76亿美元创三季度新高；2027年运力近半已按创纪录价格和入住率预订。公司上调2026财年调整后EPS指引至约2.24美元。</div>
-  <div class="meta"><b>市场反应：</b>CCL收涨约13%至25.11美元，为当日标普500最亮眼的个股；挪威邮轮(NCLH)跟涨约4.6%—5.7%，皇家加勒比涨约5.7%；邮轮板块在低油价和消费服务避险偏好推动下全线走强。 </div>
-  <div class="meta dim"><b>来源：</b>SEC 8-K、Nasdaq、TipRanks</div>
-</div>
-<h2>三、后续观察点</h2>
-<ul><li>9月30日20:30美国8月PCE物价指数（核心PCE预期环比+0.3%），决定美联储10月加息概率最终落点</li><li>美伊通过卡塔尔调解方的最终回应及霍尔木兹海峡通航进展</li><li>10月1日美国9月ADP就业、芝加哥PMI与9月非农预期前的最后预热</li><li>中国9月PMI与国庆假期前资金面、A股对前期政策组合拳的开盘反应</li></ul>
-<h2>四、口径与存疑</h2>
-<ul><li>绝对油价来自新浪行情一手接口；窗口结束时布伦特报96.05美元、WTI报89.31美元，价差6.74美元，校验通过。媒体此前出现的布伦特105.28美元等错误价位未采用。</li><li>美债10Y/30Y因FRED官方接口SSL中断未取到最新值，2Y收益率数据滞后至9月28日，仅作趋势背景。</li><li>AMD 82亿美元收购World Labs、台积电2nm扩产提速、中国央行结构性货币政策工具调整等新闻发生于9月28日美盘或9月29日亚太早盘，不在本窗口（9月29日21:30—9月30日08:30）内，故未列入事件。</li></ul>
+  <div class="desc">COMEX黄金期货涨1.12%报4215美元/盎司，白银涨0.21%报61.84美元。同日油价重挫、美伊释放缓和信号。</div>
+  <div class="meta"><b>市场反应：</b>避险资产与地缘缓和同向背离：按传统框架，地缘风险下降应利空黄金，实际却上涨——说明黄金当前的定价锚是实际利率与财政信用，不是避险情绪。 </div>
+  <div class="meta so"><b>对定价的含义：</b>这条背离是本窗口信息量最高的反证：市场并未把「美伊缓和」当作可信的地缘风险解除，只是在交易通胀路径。若黄金与油价继续同跌，才意味着真正的通缩交易启动。</div>
+  <div class="meta dim"><b>来源：</b>陆家嘴财经早餐、中新经纬</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">09-30 07:00</span>
+    <span class="cat" style="background:#ecfdf5;color:#059669">政策</span>
+    <span class="tt">中国债市与美债背离：30年国债期货涨0.53%创逾一年收盘新高</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">央行开展905亿元7天期及6985亿元隔夜逆回购，单日净投放930亿元，资金面平稳偏宽。银行间主要利率债收益率普遍下行约2bp，30年期国债期货主力涨0.53%创逾一年收盘新高，10年期主力创上市以来收盘新高。香港特区政府定价约200亿港元等值数码绿色债券，刷新全球最大数码债券发行纪录。</div>
+  <div class="meta"><b>市场反应：</b>中美长端利率方向完全相反：美债30年创2002年来新高，中国30年国债期货创逾一年新高。A股今早开盘上证+0.34%、创业板+0.70%，科创50-0.19%。 </div>
+  <div class="meta so"><b>对定价的含义：</b>国内流动性宽松与海外收紧的背离在扩大，这构成了A股估值的缓冲垫，也说明节前A股的下跌主要是筹码与外围情绪，而非国内流动性。节后若美债长端回落，A股的修复弹性会大于港股。</div>
+  <div class="meta dim"><b>来源：</b>陆家嘴财经早餐</div>
+</div><h2>四、后续观察点</h2><ul><li>周三（10月1日）美国8月PCE物价指数——在10月加息概率跌回五成的位置上，这是最直接的校准器；若核心PCE超预期，12月加息将被重新定价。</li><li>周五美国9月非农——消费信心创12年新低后，就业是否同步走弱，决定「滞」与「胀」谁先兑现。</li><li>美光周三盘后财报——存储景气度与AI数据中心链的下一个验证窗口，也是判断算力需求端是否仍在扩张的关键。</li><li>OPEC+周日会议：若维持11月配额不变，油价供应修复的叙事延续；若提前增产，布伦特下看94美元支撑。</li><li>A股节前最后一日（今日）：观察算力链能否连续两日企稳、成交是否继续缩量；节后首日的修复弹性取决于美债长端。</li></ul><h2>五、口径与存疑</h2><ul><li>油价为一手行情接口数据：布伦特9月29日收95.69美元（-2.98%）、WTI收88.93美元（-4.66%）；9月30日亚洲早盘分别反弹至96.55、89.63美元。当日部分媒体转述的「布伦特收102.59美元」经布伦特−WTI价差检验（13.21美元，远超4–6美元正常区间）判定为污染数据，不予采用。</li><li>美债收益率取媒体一致口径的当日收盘值（10年5.232%、30年5.567%、2年4.872%）；FRED官方序列滞后1–2个交易日，快照中显示的是9月28日值（10年5.24%、2年4.92%、30年5.56%）。</li><li>美股指数点位已与一手接口交叉核对一致（道指51349.92、纳指26797.54、标普7670.84）；A股与港股为9月30日早盘实时值。</li><li>OpenAI DevDay按旧金山当地9月29日举行，折北京时间为9月30日凌晨，落在本窗口内；AMD收购World Labs（82亿美元）发生于9月28日，已在上期记录，本期不再重复叙述。</li><li>部分事件时点为按美东时段折算的近似值，精确到分钟的时间以各媒体原始报道为准。</li></ul>
 <footer>价格为交易所/官方接口一手数据（新浪行情 + FRED）；事件与因果来自媒体，已做信源分级。
-★★★★★=跨资产重定价；★★★★=单市场显著反应；★★★=主流媒体报道且市场有反应；★★=媒体有报道市场无反应；★=背景信息。</footer>
+★★★★★=跨资产重定价；★★★★=单市场显著反应；★★★=主流媒体报道且市场有反应；★★=媒体有报道市场无反应；★=背景信息。星级同时计入影响的持续性：跨日乃至跨周改变定价路径的事件会上调。「持续主线跟踪」不受时间窗口限制。</footer>
 </div></body></html>
