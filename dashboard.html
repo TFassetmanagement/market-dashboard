@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>宏观·油价·科技 事件看板 2026-10-14 21:30 → 2026-10-15 08:20</title>
+<title>宏观·油价·科技 事件看板 2026-10-15 08:25</title>
 <style>
+
 :root{--ink:#0f172a;--ink2:#475569;--ink3:#94a3b8;--line:#e2e8f0;--bg:#f8fafc;
 --up:#dc2626;--down:#16a34a;--card:#fff}
 *{box-sizing:border-box}
@@ -49,16 +50,30 @@ background:#f1f5f9;padding:2px 8px;border-radius:5px}
 .warn{background:#fef2f2;color:#dc2626;padding:1px 7px;border-radius:4px;font-size:11px;margin-left:6px}
 .sanity{margin-top:10px;padding:9px 13px;border-radius:8px;font-size:13px}
 .sanity.ok{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+.sanity.wide{background:#fffbeb;color:#92400e;border:1px solid #fde68a}
 .sanity.bad{background:#fef2f2;color:#991b1b;border:1px solid #fecaca}
 ul{margin:6px 0 0 20px;padding:0} li{font-size:14px;margin-bottom:5px}
 footer{margin-top:30px;padding-top:12px;border-top:1px solid var(--line);
 color:var(--ink3);font-size:12px}
 @media(max-width:640px){body{padding:14px}.tt{min-width:100%}}
+
+.tabnote{font-size:12px;color:var(--ink3);margin:18px 0 7px}
+.tabbar{display:flex;flex-wrap:wrap;gap:7px}
+.tab{font:inherit;font-size:12.5px;font-weight:600;color:var(--ink2);background:#fff;
+border:1px solid var(--line);border-radius:999px;padding:5px 13px;cursor:pointer;
+line-height:1.5;transition:border-color .15s ease,background .15s ease,color .15s ease}
+.tab:hover{border-color:#93c5fd;color:#2563eb}
+.tab:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
+.tab.active{background:#2563eb;border-color:#2563eb;color:#fff}
+.tab .now{font-size:10px;opacity:.85;margin-left:4px}
+.issue{display:none}
+.issue.active{display:block}
+@media(max-width:640px){.tab{font-size:12px;padding:4px 10px}}
 </style></head><body><div class="wrap">
 <h1>宏观 · 油价 · 科技 事件看板</h1>
-<div class="sub">窗口：2026-10-14 21:30 → 2026-10-15 08:20　｜　生成时间：2026-10-15 08:25</div>
+<div class="tabnote">回看最近 6 期更新（点击切换）</div><div class="tabbar"><button class="tab active" data-t="i0" title="2026-10-15 08:25">10-15 08:25<span class="now">最新</span></button><button class="tab" data-t="i1" title="2026-10-14 21:31">10-14 21:31</button><button class="tab" data-t="i2" title="2026-10-14 09:32">10-14 09:32</button><button class="tab" data-t="i3" title="2026-10-13 21:29">10-13 21:29</button><button class="tab" data-t="i4" title="2026-10-13 09:28">10-13 09:28</button><button class="tab" data-t="i5" title="2026-10-12 21:31">10-12 21:31</button></div><div class="issue active" id="i0"><div class="sub">窗口：2026-10-14 21:30 → 2026-10-15 08:20　｜　生成时间：2026-10-15 08:25</div>
 <div class="headline"><b>9月CPI把10月加息概率从两成顶到五成，美股用费半六连跌、市值蒸发1.5万亿美元完成了第一轮利率重定价；Anthropic交出168亿美元营收、调整后盈利的答卷也未能阻止抛售蔓延到今晨KOSPI熔断级开盘——今晚PPI与周五台积电财报决定这是仓位出清的尾声还是估值路径的转向。</b></div>
-<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>105.44</td><td class='num'><span class="down">-0.58%</span></td></tr><tr><td>WTI原油</td><td class='num'>94.62</td><td class='num'><span class="down">-0.50%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,158.14</td><td class='num'><span class="up">+1.22%</span></td></tr><tr><td>纽约白银</td><td class='num'>56.21</td><td class='num'><span class="up">+0.59%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,767.23</td><td class='num'><span class="down">-0.88%</span></td></tr><tr><td>深证成指</td><td class='num'>12,110.59</td><td class='num'><span class="down">-1.97%</span></td></tr><tr><td>创业板指</td><td class='num'>2,866.76</td><td class='num'><span class="down">-3.10%</span></td></tr><tr><td>科创50</td><td class='num'>1,380.26</td><td class='num'><span class="down">-3.29%</span></td></tr><tr><td>沪深300</td><td class='num'>4,217.68</td><td class='num'><span class="down">-1.36%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,314.17</td><td class='num'><span class="down">-0.13%</span></td></tr><tr><td>国企指数</td><td class='num'>8,183.17</td><td class='num'><span class="up">+0.10%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,621.48</td><td class='num'><span class="down">-0.09%</span></td></tr><tr><td>纳斯达克</td><td class='num'>26,692.87</td><td class='num'><span class="down">-1.88%</span></td></tr><tr><td>标普500</td><td class='num'>7,718.94</td><td class='num'><span class="down">-1.11%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.21%</td><td class='num'><span class=na>—</span></td><td class='dim'>2026-10-13</td></tr><tr><td>美债2年</td><td class='num'>4.79%</td><td class='num'><span class=na>—</span></td><td class='dim'>2026-10-13</td></tr><tr><td>美债30年</td><td class='num'>5.56%</td><td class='num'><span class=na>—</span></td><td class='dim'>2026-10-13</td></tr></table></div></div><div class="sanity bad">数据校验：布伦特−WTI价差 <b>10.82</b> 美元（正常区间 4~6 美元）— 异常！疑似数据污染，务必换源复核</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>105.44</td><td class='num'><span class="down">-0.58%</span></td></tr><tr><td>WTI原油</td><td class='num'>94.62</td><td class='num'><span class="down">-0.50%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,158.14</td><td class='num'><span class="up">+1.22%</span></td></tr><tr><td>纽约白银</td><td class='num'>56.21</td><td class='num'><span class="up">+0.59%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,767.23</td><td class='num'><span class="down">-0.88%</span></td></tr><tr><td>深证成指</td><td class='num'>12,110.59</td><td class='num'><span class="down">-1.97%</span></td></tr><tr><td>创业板指</td><td class='num'>2,866.76</td><td class='num'><span class="down">-3.10%</span></td></tr><tr><td>科创50</td><td class='num'>1,380.26</td><td class='num'><span class="down">-3.29%</span></td></tr><tr><td>沪深300</td><td class='num'>4,217.68</td><td class='num'><span class="down">-1.36%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,314.17</td><td class='num'><span class="down">-0.13%</span></td></tr><tr><td>国企指数</td><td class='num'>8,183.17</td><td class='num'><span class="up">+0.10%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,621.48</td><td class='num'><span class="down">-0.09%</span></td></tr><tr><td>纳斯达克</td><td class='num'>26,692.87</td><td class='num'><span class="down">-1.88%</span></td></tr><tr><td>标普500</td><td class='num'>7,718.94</td><td class='num'><span class="down">-1.11%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.21%</td><td class='num'><span class=na>—</span></td><td class='dim'>2026-10-13</td></tr><tr><td>美债2年</td><td class='num'>4.79%</td><td class='num'><span class=na>—</span></td><td class='dim'>2026-10-13</td></tr><tr><td>美债30年</td><td class='num'>5.56%</td><td class='num'><span class=na>—</span></td><td class='dim'>2026-10-13</td></tr></table></div></div><div class="sanity wide">数据校验：布伦特−WTI价差 <b>10.82</b> 美元（常态 4~6 美元）— 偏阔但属已知的结构性走阔（中东与大西洋盆地供应割裂），引用前用日K或第二信源复核即可，不判为污染</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
   <div class="thhead">
     <span class="tname">美联储加息路径与美债长端</span>
     <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
@@ -172,7 +187,747 @@ color:var(--ink3);font-size:12px}
   <div class="meta"><b>市场反应：</b>市场反应：KOSPI开盘-5.59%（前一交易日已暴跌5.46%）、SK海力士-7%、三星-7%、日经盘中-2%；费半隔夜已跌4.3% </div>
   <div class="meta so"><b>对定价的含义：</b>对定价的含义：存储与AI硬件的出清是全球化联动的同一个仓位问题，韩国作为存储权重最高的市场成为杠杆出清的风向标——今晨A股科技链（A50夜盘-0.86%）大概率同步低开，硬件链企稳需等台积电财报给出需求能见度</div>
   <div class="meta dim"><b>来源：</b>财联社</div>
-</div><h2>四、后续观察点</h2><ul><li>今晚20:30美国9月PPI：若同步超预期，10月加息概率将进一步向50%上方抬升</li><li>周五台积电财报：费半六连跌后市场门槛极高，高盛预计其2027年资本开支850亿美元（瑞银900亿），指引措辞比业绩本身更重要</li><li>Anthropic披露后的首个交易日：AI板块对&#x27;营收168亿+调整后盈利&#x27;的定价反应，及11月IPO时间表是否确认推迟</li><li>KOSPI sidecar后能否收窄跌幅，存储链抛售向A股科技（半导体/存储/光模块）的传导深度</li><li>10月27—28日FOMC：柯林斯等官员后续表态与加息概率（现约44%—50%）的演化</li></ul><h2>五、口径与存疑</h2><ul><li>布伦特-WTI价差10.82美元再次触发脚本异常标记：经stooq（不可达）之外的多独立源（yfinance口径10-14收盘布伦特106.4—106.9/WTI 94.8—95.3）与新浪一手接口交叉复核，判定为市场真实价差，已连续第6期高于4—6美元历史正常区间，反映大西洋盆地供应分化而非数据污染</li><li>美债收益率为FRED官方序列（滞后1—2交易日，最新10-13为5.21%），10-14盘中5.33%/收盘5.19%的当日口径来自新华财经转述，未有一手数据源</li><li>汇通财经关于伊朗新战术的报道与路透口径一致（伊朗官方表态），予以采信；marketsfn等疑似AI生成站的报价口径（WTI 90.86）与一手数据严重不符，已剔除不用</li></ul>
+</div><h2>四、后续观察点</h2><ul><li>今晚20:30美国9月PPI：若同步超预期，10月加息概率将进一步向50%上方抬升</li><li>周五台积电财报：费半六连跌后市场门槛极高，高盛预计其2027年资本开支850亿美元（瑞银900亿），指引措辞比业绩本身更重要</li><li>Anthropic披露后的首个交易日：AI板块对&#x27;营收168亿+调整后盈利&#x27;的定价反应，及11月IPO时间表是否确认推迟</li><li>KOSPI sidecar后能否收窄跌幅，存储链抛售向A股科技（半导体/存储/光模块）的传导深度</li><li>10月27—28日FOMC：柯林斯等官员后续表态与加息概率（现约44%—50%）的演化</li></ul><h2>五、口径与存疑</h2><ul><li>布伦特-WTI价差10.82美元再次触发脚本异常标记：经stooq（不可达）之外的多独立源（yfinance口径10-14收盘布伦特106.4—106.9/WTI 94.8—95.3）与新浪一手接口交叉复核，判定为市场真实价差，已连续第6期高于4—6美元历史正常区间，反映大西洋盆地供应分化而非数据污染</li><li>美债收益率为FRED官方序列（滞后1—2交易日，最新10-13为5.21%），10-14盘中5.33%/收盘5.19%的当日口径来自新华财经转述，未有一手数据源</li><li>汇通财经关于伊朗新战术的报道与路透口径一致（伊朗官方表态），予以采信；marketsfn等疑似AI生成站的报价口径（WTI 90.86）与一手数据严重不符，已剔除不用</li></ul></div><div class="issue" id="i1"><div class="sub">窗口：2026-10-14 08:30 → 2026-10-14 21:25　｜　生成时间：2026-10-14 21:31</div>
+<div class="headline"><b>美国9月CPI全面超预期把10月加息概率从不足两成顶回50%，利率溢价重新压过一切——白天A股已先行缩量出清算力硬件、资金切向红利与AI应用，晚间黄金白银重挫、纳指期货跳水；油价在沙特阿美达兰总部再遭袭与俄柴油放行之间打平，今晚美股开盘与Anthropic首份财务披露是对AI交易的第二道裁决。</b></div>
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>105.55</td><td class='num'><span class="down">-0.13%</span></td></tr><tr><td>WTI原油</td><td class='num'>95.44</td><td class='num'><span class="up">+1.39%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,106.57</td><td class='num'><span class="down">-1.69%</span></td></tr><tr><td>纽约白银</td><td class='num'>56.88</td><td class='num'><span class="down">-4.45%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,767.23</td><td class='num'><span class="down">-0.88%</span></td></tr><tr><td>深证成指</td><td class='num'>12,110.59</td><td class='num'><span class="down">-1.97%</span></td></tr><tr><td>创业板指</td><td class='num'>2,866.76</td><td class='num'><span class="down">-3.10%</span></td></tr><tr><td>科创50</td><td class='num'>1,380.26</td><td class='num'><span class="down">-3.29%</span></td></tr><tr><td>沪深300</td><td class='num'>4,217.68</td><td class='num'><span class="down">-1.36%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,314.17</td><td class='num'><span class="down">-0.13%</span></td></tr><tr><td>国企指数</td><td class='num'>8,183.17</td><td class='num'><span class="up">+0.10%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,670.10</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>纳斯达克</td><td class='num'>27,204.38</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>标普500</td><td class='num'>7,805.45</td><td class='num'><span class="flat">0.00%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.24%</td><td class='num'><span class="up">+0.02pp</span></td><td class='dim'>2026-10-09</td></tr><tr><td>美债2年</td><td class='num'>4.80%</td><td class='num'><span class="up">+0.05pp</span></td><td class='dim'>2026-10-09</td></tr><tr><td>美债30年</td><td class='num'>5.60%</td><td class='num'><span class="flat">0.00pp</span></td><td class='dim'>2026-10-09</td></tr></table></div></div><div class="sanity wide">数据校验：布伦特−WTI价差 <b>10.11</b> 美元（常态 4~6 美元）— 偏阔但属已知的结构性走阔（中东与大西洋盆地供应割裂），引用前用日K或第二信源复核即可，不判为污染</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+  <div class="thhead">
+    <span class="tname">美联储加息路径与美债长端</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 09-15</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：9月CPI同比3.7%/核心2.6%全面超预期，10月加息概率自约17%骤升至50%，市场定价到2027年底累计再加息三次；2Y盘中+10bp至4.89%，10Y升至5.19上方。周四PPI、周五Warsh曼谷讲话接续。</div>
+  <div class="tso"><b>对定价的含义：</b>长端在5.2–5.3区间再获通胀数据支撑，成长股与AI资产的估值锚继续恶化；10月27–28会议从「大概率暂停」变成接近掷硬币，这是当前全球定价的第一矛盾。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">中东供应与霍尔木兹风险溢价</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 09-24</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：胡塞弹道导弹击中沙特阿美达兰总部园区行政楼（该园区设管控沙特全部油田/管道/出口码头的核心运营中心），利雅得机场关闭延至10-17，沙特24小时119次空袭也门；特朗普称「很快对伊朗问题作出决定」并可能请埃尔多安介入；伊朗海军要求过境霍尔木兹船只开启电子设备并协调通行。对冲项：沙特9月产量回升至837万桶/日（+200万桶）、美财政部放行俄柴油出口。</div>
+  <div class="tso"><b>对定价的含义：</b>打击目标从能源基础设施升级到生产控制中枢，溢价有实弹支撑；但袭击常态化+沙特复产+俄柴油回流使单次袭击的边际拉动递减，布油被约束在105美元平台震荡，方向裁决在特朗普对伊朗的决定。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">存储与AI硬件的拥挤交易</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 10-02</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：出清从韩股蔓延到A股——通信-3.93%领跌、电子主力净流出67亿、AI概念-81亿、华为概念-76亿；美股盘前SK海力士/闪迪跌超3%、AMD/英特尔/甲骨文跌超2%；博通CEO重申「AI最大瓶颈不是芯片，是钱」。</div>
+  <div class="tso"><b>对定价的含义：</b>融资约束叙事与利率上行共振，三季报披露期前拥挤筹码继续出清；资金没有离开AI总量，而是从硬件向应用端（短剧/AI漫剧）与平台迁移，硬件的估值修复要等业绩兑现。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">AI商业化验证（Anthropic IPO）</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-28</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：Anthropic于美东周三（北京今晚至明晨）举行Pre-IPO投资者日，首次披露Q3完整财务，为2万亿美元目标估值铺路；Q2营收已超115亿美元，年底年化千亿叙事面临第一次真实数据检验，口径是否含云伙伴分成是关键。</div>
+  <div class="tso"><b>对定价的含义：</b>上周OpenAI口径风波已示范过一次「数字差两成」对半导体的杀伤，Anthropic的数字与口径将直接校准一级市场对AI收入的定价，并决定史上最大IPO能否成行。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">A股缩量风格切换</span>
+    <span class="tstat" style="color:#2563eb;border-color:#2563eb">推进</span>
+    <span class="tsince">起于 09-30</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：成交1.41万亿（缩量2615亿）逼近年内低量，双创跌超3%、近4500股下跌；两融降至2.54万亿三连降；资金流入传媒+66亿/公用事业+32亿，石油石化煤炭领涨（动力煤5500卡平仓价站上1000元/吨）。</div>
+  <div class="tso"><b>对定价的含义：</b>量能与杠杆同步收缩下，存量资金完成「硬件→红利+AI应用」的再平衡；磨底成色取决于三季报兑现与量能回补，若持续1.4万亿以下，切换可能演变为系统性缩量。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">俄乌「能源停火」</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 10-11</span>
+    <span class="stars"><span class="st on">★★</span><span class="st off">☆☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期无停火实质进展，俄乌互袭持续；但美财政部发放俄柴油出口临时许可（至2027年4月，俄方称年底月供300–350万吨），克宫强调与乌克兰立场无关联。</div>
+  <div class="tso"><b>对定价的含义：</b>能源贸易正常化先于停火推进：柴油缺口边际缓解是今日WTI强于布油、价差自13收窄至10美元的直接解释——地缘溢价的第二条退出路径开始显形，若俄柴油放量兑现，Brent-WTI价差是观察指标。</div>
+</div><h2>三、本期事件时间线（按重要程度评星）</h2><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 09:30</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">中国9月CPI+0.9%、PPI+5.0%涨幅扩大，统计局点名AI算电协同推升PPI</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">国家统计局公布：9月CPI同比+0.9%（环比+0.2%），核心CPI同比+1.0%持平；PPI同比+5.0%、环比+1.2%，涨幅均较上月扩大，石油开采环比+14.5%、煤炭+9.5%；统计局明确「人工智能、算电协同等领域加快发展带动部分行业需求增加、价格上涨」。</div>
+  <div class="meta"><b>市场反应：</b>与当日A股板块高度映射：石油石化+1.71%、煤炭+1.40%领涨，陕西煤业、中国神华创历史新高 </div>
+  <div class="meta so"><b>对定价的含义：</b>内需通胀温和但上游成本加速，中下游利润受挤压；「AI—电力—煤」需求链首次被官方口径确认，周期与算力的交叉点获得基本面注脚，也解释了本轮资金向红利资源的迁移</div>
+  <div class="meta dim"><b>来源：</b>国家统计局、财联社</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 10:00</span>
+    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
+    <span class="tt">胡塞弹道导弹击中沙特阿美达兰总部园区，特朗普「很快对伊朗做决定」</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">当地时间13日弹道导弹击中达兰总部园区一栋行政楼起火、无伤亡；该园区设有管控沙特全部陆海油田、管道与出口码头的核心运营中心，是胡塞两周内第四轮对沙特能源设施的打击。特朗普指责胡塞蓄意在中期选举前推高油价，称将很快对伊朗问题作出决定、可能请埃尔多安介入；美国务院限制雇员使用沙特机场。</div>
+  <div class="meta"><b>市场反应：</b>亚盘早间布油一度升至106.96/WTI 95.25（日内+1.2%），至夜盘布油105.55基本回吐涨幅 </div>
+  <div class="meta so"><b>对定价的含义：</b>打击目标逼近生产控制中枢，一旦命中运营设施溢价将跳升；但市场已按「袭击常态化+供应替代」定价，单次袭击的边际拉动递减，真正定价变量是特朗普的决定</div>
+  <div class="meta dim"><b>来源：</b>央视新闻、财联社</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 11:00</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">WTI强于布油、价差自约13收窄至10美元，俄柴油放行开始起效</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">夜盘WTI 95.44（+1.39%）vs布油105.55（-0.13%），Brent-WTI价差自昨日约13收窄至10.1美元。驱动：美财政部临时许可俄柴油出口至2027年4月（俄方称年底前月供300–350万吨），沙特9月产量回升至837万桶/日（环比+200万桶/日）；OPEC月报连续第六次下调2026年需求增长预期至18万桶/日。</div>
+  <div class="meta"><b>市场反应：</b>价差单日收窄约3美元，为9月24日冲突升级以来首次明确收敛 </div>
+  <div class="meta so"><b>对定价的含义：</b>美国柴油紧张的缓解直接压低WTI端溢价；若俄柴油放量持续，Brent-WTI价差将成为本轮地缘溢价回落的第一个可跟踪信号</div>
+  <div class="meta dim"><b>来源：</b>汇通网、OPEC月报（转述）</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 15:00</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">A股缩量普跌、算力硬件集中出清，资金切向红利与AI应用</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">沪指-0.88%收3767.23失守3800，创业板-3.10%、科创50-3.29%；成交1.41万亿缩量2615亿、近4500股下跌。通信-3.93%、建材/电新/电子约-2.9%领跌，中际旭创、新易盛、天孚通信跌超5%，大金重工连续第二日跌停；石油石化+1.71%、煤炭+1.40%、传媒+1.12%领涨，AI漫剧/短剧涨停潮（慈文传媒4连板，字节PineDrama下载破1亿）。主力净流出电子67亿/电新47亿/通信35亿，净流入传媒66亿；两融降至2.54万亿三连降。</div>
+  <div class="meta"><b>市场反应：</b>双创单日跌超3%、电子+通信合计失血超百亿，为10月8日复市以来最集中的硬件出清；成交缩量至1.41万亿接近年内低量 </div>
+  <div class="meta so"><b>对定价的含义：</b>硬件拥挤出清与美债利率上行、三季报验证三重压力共振；资金未离开AI总量而是在内部完成「硬件→应用+红利」再平衡，磨底成色看量能回补</div>
+  <div class="meta dim"><b>来源：</b>财联社、21财经、每日经济新闻</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 16:09</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">港股与A股科技分化：科网逆势上涨、生物医药杀跌</span>
+    
+    <span class="stars"><span class="st on">★★</span><span class="st off">☆☆☆</span></span>
+  </div>
+  <div class="desc">恒指-0.13%但恒生科技+0.91%，美团+6%、小米+5%、阿里+3%；生物医药领跌（歌礼制药-12%、康方生物-9%），光通信板块中海光芯正-8%。</div>
+  <div class="meta"><b>市场反应：</b>同日A股双创跌超3%，恒生科技与A股成长显著背离 </div>
+  <div class="meta so"><b>对定价的含义：</b>AI重定价下市场区分「烧钱的硬件」与「有现金流的平台」，港股科网成为估值与现金流双重防御选择；生物医药跟随美债利率承压</div>
+  <div class="meta dim"><b>来源：</b>21财经</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 20:30</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">美国9月CPI全面超预期：同比3.7%、核心2.6%，10月加息概率顶回50%</span>
+    
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="desc">CPI同比+3.7%（预期3.6%、前值3.4%），环比+0.6%为5个月最快；核心同比+2.6%（预期2.5%）、核心环比+0.3%（预期0.2%），服务分项跳升、商品与服务涨幅同步加速。</div>
+  <div class="meta"><b>市场反应：</b>10月加息概率自约17%骤升至50%、市场定价到2027年底累计再加息三次；美元指数拉升30点至102.52，2Y+10bp至4.89%、10Y升至5.19上方；现货金跌超1%、白银-4.45%（一手：纽约金4106.57/-1.69%）；纳指期货一度-0.68% </div>
+  <div class="meta so"><b>对定价的含义：</b>FOMC（10-27/28）前最后一份CPI显示通胀「全面走热」，暂停加息路径失守；油价驱动的能源分项向核心传导被数据初步验证，长久期成长与AI资产估值锚进一步恶化</div>
+  <div class="meta dim"><b>来源：</b>财联社、华尔街见闻</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 21:30</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">美股盘前科技股跳水、三大期货转跌，Anthropic财务披露结果待出</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">CPI公布后美股盘前科技股集体跳水：SK海力士、闪迪跌超3%，AMD、英特尔、甲骨文跌超2%，英伟达、美光跌超1%；三大股指期货全线转跌。Anthropic于美东周三举行Pre-IPO投资者日首次披露Q3财务，截至本稿发出结果未出。</div>
+  <div class="meta"><b>市场反应：</b>盘前与期货口径：纳指期货-0.68%，存储与半导体链领跌；开盘后实时表现待确认 </div>
+  <div class="meta so"><b>对定价的含义：</b>利率冲击与AI收入验证同日叠加，半导体与存储链首当其冲；Anthropic数字与口径（是否含云伙伴分成）将直接校准AI一级市场定价</div>
+  <div class="meta dim"><b>来源：</b>财联社、CNBC（转述）</div>
+</div><h2>四、后续观察点</h2><ul><li>美股开盘后对CPI的实际消化：费半与存储链能否止跌，是仓位清洗还是估值转向</li><li>Anthropic Q3营收数字与统计口径（含不含云伙伴分成），及11月9日当周IPO营销时间表</li><li>周四美国9月PPI（预期环比+0.5%）与周五Warsh曼谷IMF讲话对加息路径的确认</li><li>特朗普对伊朗问题的决定：是否加入沙特对胡塞的打击、美伊接触是否彻底破裂</li><li>明日台积电Q3财报——AI资本开支景气度的直接检验</li><li>A股量能能否回补：持续低于1.4万亿则风格切换可能演变为系统性缩量磨底</li></ul><h2>五、口径与存疑</h2><ul><li>布伦特−WTI价差校验报异常（10.11），经腾讯hf_OIL/hf_CL换源复核一致（105.52/95.45），判定为真实市场结构（此前多日10–13美元），非数据污染；今日价差收窄本身构成事件（见油价条目）。</li><li>美债盘中数值（2Y 4.89%、10Y 5.19%）为数据公布后财联社等转述的即时报价；FRED一手序列滞后至10-09（10Y 5.24%），盘中文本未获一手确认。</li><li>检索剔除旧文：2022年10月14日发布的「9月CPI+2.8%/PPI+0.9%」同日旧文及2021年低通胀旧文大规模混入，中国CPI/PPI一律以国家统计局2026-10-14官网发布口径为准（CPI+0.9%/PPI+5.0%）。</li><li>北向资金单日净买卖额自2024年8月起不再披露，港股南向当日数据未获2026口径，均未写入。</li><li>美股开盘初段（21:30）实时行情尚未进入快照，美股表现以盘前与期货口径呈现，相关条目标注ongoing。</li></ul></div><div class="issue" id="i2"><div class="sub">窗口：2026-10-13 21:30 → 2026-10-14 09:21　｜　生成时间：2026-10-14 09:32</div>
+<div class="headline"><b>沙特阿美总部在利雅得世界石油大会期间遇袭起火，中东冲突的打击目标第一次落到石油公司的核心资产上；同一夜华尔街财报季开幕，四大行业绩超预期却全线收跌，威廉姆斯把加息周期的终点限定在年内——市场正从交易「AI总量扩张」切换到交易「谁承担资本开支、谁拿到现金流」，今晚CPI与Anthropic首次披露财务是这一切换的第一道检验。</b></div>
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>107.11</td><td class='num'><span class="up">+1.34%</span></td></tr><tr><td>WTI原油</td><td class='num'>95.36</td><td class='num'><span class="up">+1.29%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,173.31</td><td class='num'><span class="down">-0.10%</span></td></tr><tr><td>纽约白银</td><td class='num'>59.07</td><td class='num'><span class="down">-0.76%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,800.61</td><td class='num'><span class="down">-0.01%</span></td></tr><tr><td>深证成指</td><td class='num'>0.00</td><td class='num'><span class="na">—</span></td></tr><tr><td>创业板指</td><td class='num'>0.00</td><td class='num'><span class="na">—</span></td></tr><tr><td>科创50</td><td class='num'>1,427.18</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>沪深300</td><td class='num'>4,275.41</td><td class='num'><span class="down">-0.01%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,345.22</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>国企指数</td><td class='num'>8,174.72</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,670.10</td><td class='num'><span class="down">-0.35%</span></td></tr><tr><td>纳斯达克</td><td class='num'>27,204.38</td><td class='num'><span class="down">-0.15%</span></td></tr><tr><td>标普500</td><td class='num'>7,805.45</td><td class='num'><span class="down">-0.02%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.24%</td><td class='num'><span class="up">+0.02pp</span></td><td class='dim'>2026-10-09</td></tr><tr><td>美债2年</td><td class='num'>4.80%</td><td class='num'><span class="up">+0.05pp</span></td><td class='dim'>2026-10-09</td></tr><tr><td>美债30年</td><td class='num'>5.60%</td><td class='num'><span class="flat">0.00pp</span></td><td class='dim'>2026-10-09</td></tr></table></div></div><div class="sanity wide">数据校验：布伦特−WTI价差 <b>11.75</b> 美元（常态 4~6 美元）— 偏阔但属已知的结构性走阔（中东与大西洋盆地供应割裂），引用前用日K或第二信源复核即可，不判为污染</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+  <div class="thhead">
+    <span class="tname">中东供应与霍尔木兹风险溢价</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 09-24</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：胡塞武装13日将沙特阿美达曼总部与利雅得炼油设施列为合法打击目标，同日阿美位于宰赫兰的总部园区遭导弹袭击波及起火，沙特能源部证实一处行政建筑受损；事件发生在利雅得世界石油大会期间，埃克森美孚、雪佛龙、壳牌、BP、道达尔等公司负责人退出该活动。英国海上贸易行动办公室记录霍尔木兹单日6船遇袭；据金融时报，截至10月11日的两周内海峡及周边水域共24艘船遭袭，超过3月上旬13艘的前高点，经该海峡的石油出口量已从9月日均1550万桶降至10月11日的290万桶。伊朗革命卫队海军司令称正等待美军舰靠近海峡入口并将其击沉，美国中央司令部回称「伊朗革命卫队海军司令根本没有海军」。</div>
+  <div class="tso"><b>对定价的含义：</b>溢价的性质变了：此前市场定价的是「可能中断」的概率，现在定价的是「已经中断」的存量——阿美CEO纳赛尔在世界石油大会上称全球商业陆上原油库存已低于60亿桶，是「最后可用的缓冲」且需两年才能恢复。这意味着供给端已经没有冗余，任何新增打击都会直接打到价格上，而不是被库存吸收。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">存储与AI硬件的拥挤交易</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">分化</span>
+    <span class="tsince">起于 10-02</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：10月13日韩国综合指数收跌5.46%报6035.35点，SK海力士跌超10%、三星电子跌超7%；美股费城半导体指数连续第五个交易日下跌，盘中一度跌超3%、收跌0.23%。但尾盘出现明显拉升——闪迪跌幅从日内最多超4%收窄至0.34%，希捷科技从跌超6%收窄至0.8%，SK海力士美股相对韩股的溢价升至46.5%。博通CEO陈福阳与英特尔CEO陈立武同声警告：利率上行之下，资本获取可能成为AI公司最大的约束。</div>
+  <div class="tso"><b>对定价的含义：</b>这轮调整从「全面踩踏」进入「分化」：硬件端去杠杆尚未结束但抛压在减弱，平台端（微软、苹果、Meta、甲骨文）反而创新高。定价逻辑正从「AI总量扩张」切到「谁承担资本开支、谁拿到现金流」，而利率上行是这个切换的直接推手——硬件是重资产、长周期，平台是轻资产、即时变现。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">AI算力自研化与商业化验证</span>
+    <span class="tstat" style="color:#2563eb;border-color:#2563eb">推进</span>
+    <span class="tsince">起于 09-28</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：微软涨0.43%、自去年10月以来首度刷新收盘历史新高，苹果涨0.09%刷新9月底以来收盘新高并推出299美元的智能家居终端HomeView；Meta因Muse Wonder模型与分析师上调目标价涨2.63%，甲骨文涨4.23%。一级市场方面，Anthropic将于美东周三向机构投资者首次披露三季度财务数据，寻求约2万亿美元估值、称年底年化收入或超1000亿美元；但路透此前援引招股书称其2025年收入46亿美元、净亏损420亿美元，独立研究机构New Constructs仅给1500亿美元估值。OpenAI口径为9月底年化收入约500亿美元（剔除云合作伙伴）、三季度整体run rate增长77%、企业业务107%，估值8520亿美元。</div>
+  <div class="tso"><b>对定价的含义：</b>一级市场估值与二级市场可验证现金流之间的张力，正在成为AI链的核心风险源。关键看Anthropic是否把云伙伴收入计入——若与OpenAI（剔除）口径不一致，两家的年化收入不可比，2万亿美元叙事会被质疑；若一致，整个AI板块的估值锚将被重设。这是今晚AI板块最大的单一变量。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">美联储加息路径与美债长端</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 09-15</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：纽约联储主席威廉姆斯（FOMC「三把手」）周二表示，今年再加息一次是合适的，但目前没有理由认为2027年还需要进一步加息；他称没有迹象表明劳动力市场正在推动通胀，除AI和能源行业外未看到其他领域普遍存在价格压力，并主张在能源与AI相关价格冲击下关注通胀的「潜在趋势」。CME定价显示10月加息25个基点概率22.7%、年内至少再加息一次概率87.8%。30年期美债收益率近三个交易日回落近10个基点。</div>
+  <div class="tso"><b>对定价的含义：</b>真正的变化不是方向而是终点——威廉姆斯等于给加息周期画了一条年内截止线，与哈马克的鹰派表态形成分歧。长端收益率回落说明市场买的是「通胀是能源与AI的局部冲击」这个判断；若今晚CPI的核心分项超预期，这个判断会被重新定价，短端与长端将反向运动。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">俄乌「能源停火」</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">破裂</span>
+    <span class="tsince">起于 10-11</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：特朗普宣布能源停火后不足48小时，莫斯科在10月12日20时30分至13日7时遭到417架无人机袭击，其中65架在接近该市时被摧毁；同期俄军对乌克兰军工设施、物流中心、铁路与港口基础设施实施集群打击。美国两党7名参议员联名质疑放宽俄柴油进口违反2022年国会立法，要求政府撤回决定，乌方称事先并未获知停火安排；俄副外长里亚布科夫称俄美乌三方会晤具体安排尚未达成。ICE柴油期货逆势大涨4.65%。</div>
+  <div class="tso"><b>对定价的含义：</b>这条线已被证伪，降为3星。它对定价的含义很具体：唯一能压低成品油价格的边际供给来源在政治上不可执行，柴油裂解价差的紧张无法靠外交声明解决——这才是通胀黏性的真实来源，也是威廉姆斯说「能源价格继续对整体通胀构成上行压力」的实证。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">A股政策接力与风格分化</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-30</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：10月13日A股低开回升，上证指数涨0.10%报3800.86点收复3800点关口，深证成指跌0.25%报12353.70点、创业板指跌0.18%报2958.34点、科创综指跌0.08%；两市成交16759亿元、较前一日放量1381亿元，2909只个股上涨、2486只下跌，70只涨停。算力硬件午后集体反弹，元器件、CPO、PCB、光通信领涨，中际旭创早盘一度跌破700元后翻红收735元、成交221.13亿元居A股第一。保险板块逆势大跌，中国太保跌超4%、中国人寿跌超3%，背景是金融监管总局《财产保险公司保险产品开发管理规定》将于11月1日施行。</div>
+  <div class="tso"><b>对定价的含义：</b>与韩股同日暴跌5.46%相比，A股走出了独立行情——说明这轮存储去杠杆传导到A股是「估值锚下移」而非「资金撤离」。放量是唯一的验证条件：缩量反弹不成立，成交能否连续放大才说明资金是在借跌换仓。保险新规则提示金融板块存在独立于外部冲击的政策风险。</div>
+</div><h2>三、本期事件时间线（按重要程度评星）</h2><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 22:30</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">OPEC月报：沙特9月增产213万桶/日，今年需求增长被第六次下调至18万桶/日</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">OPEC发布10月《石油市场月度报告》。供给端：OPEC+9月日均原油产量3907万桶，环比增加约90万桶；其中沙特日产量从8月的623.8万桶升至837.2万桶、环比增逾200万桶，主因东西输油管道遭袭受损后沙特阿美加大波斯湾出口终端装船力度；俄罗斯日产量环比减少3.8万桶至864.3万桶，能源基础设施持续遭袭是主因，整体产量仍未恢复到2026年2月中东冲突爆发前水平。需求端：2026年全球石油需求增长预测下调至日均18万桶，为连续第六个月下调（8月预估为38万桶），四季度需求预估下调至1.0773亿桶/日；2027年需求增长预测由236万桶/日上调至255万桶/日，2027年全球日均需求达1.083亿桶，逻辑是今年库存被大幅消耗后的补库需求。OPEC+核心成员国本月早些时候同意维持11月产量不变。</div>
+  <div class="meta"><b>市场反应：</b>报告发布后布伦特近月合约在美盘时段下跌0.75%至105.76美元，当日最终收跌0.9%至105.69美元——需求端连续下调被地缘溢价完全盖过，市场几乎没有对这份报告单独定价。 </div>
+  <div class="meta so"><b>对定价的含义：</b>两份信息要分开读：沙特增产213万桶/日是真实的边际供给，但它在波斯湾装船、仍要过霍尔木兹，等于把风险敞口从一个出口通道换到另一个；2027年补库逻辑的上调则给了长周期多头一个叙事支点。短期对价格无效，中期改变了「库存已见底」的共识强度。</div>
+  <div class="meta dim"><b>来源：</b>华尔街见闻、财联社、央视新闻、Asharq Al-Awsat</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 23:30</span>
+    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
+    <span class="tt">沙特阿美总部遇袭起火，胡塞将阿美设施列为合法打击目标</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="desc">也门胡塞武装13日将沙特阿美位于达曼的总部与利雅得炼油设施列为合法打击目标。据媒体与沙特能源部证实，当地时间周二胡塞发起的导弹袭击导致沙特阿美位于宰赫兰（Dhahran）总部园区的一处行政建筑遭袭并引发局部火灾，目前不清楚火灾由导弹直接命中还是拦截碎片造成。这轮袭击发生在利雅得举行第二十五届世界石油大会期间，因安全局势恶化，埃克森美孚、雪佛龙、壳牌、BP与道达尔能源等多家石油公司负责人退出该活动。同日沙特主导联军称打击了胡塞武装的军事补给设施及萨那一处石油设施，胡塞则称沙特在24小时内发动104次袭击。美国驻沙特领事馆10月13日发布安全警报，要求驻沙人员及家属使用当地机场须获特别授权。</div>
+  <div class="meta"><b>市场反应：</b>袭击消息与美以磋商打击伊朗的报道叠加，推动布伦特在10月14日亚洲早盘上涨1.34%至107.11美元、WTI涨1.29%至95.36美元，双双逼近10月12日创下的两周高点（布伦特盘中高点107.33美元）。 </div>
+  <div class="meta so"><b>对定价的含义：</b>这是冲突阶段的一次跃迁：打击对象从航运通道、军用与民用机场，推进到石油公司的核心资产与世界石油大会这一行业最高规格场合。它把「供应中断」从统计意义上的风险变成了可验证的事实。对定价的含义是，油价的下方支撑不再是库存或闲置产能，而是冲突本身何时降级——而这个变量目前没有任何一方握有主动权。</div>
+  <div class="meta dim"><b>来源：</b>财联社、金十数据、华尔街见闻、沙特能源部</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 00:30</span>
+    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
+    <span class="tt">以媒：内塔尼亚胡与特朗普磋商在两国选举前联手再袭伊朗</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">据以色列第12频道电视台13日报道并经央视新闻转述，以色列总理内塔尼亚胡近期与美国总统特朗普多次通话，商讨在10月27日以色列议会选举和11月3日美国中期选举前，对伊朗发动大规模联合军事打击的可能性；内塔尼亚胡以伊朗在核领域采取「令人担忧的新举措」为由积极推动。美国政府高级官员透露，特朗普要求美以相关部门「推进并做好准备」，但美方目前尚未向以色列作出任何实质性承诺。以色列总理办公室否认曾敦促在美中期选举前动手，报道称美以两国内部对重启联合打击均存在不同意见。特朗普此前曾公开表示中期选举前不会攻击伊朗。目前卡塔尔等斡旋方仍在等待伊朗对美国最新谈判建议的回应。伊朗革命卫队海军司令称正等待美军舰靠近霍尔木兹海峡入口并将其击沉，美国中央司令部回应称「美国军队及地区伙伴显然控制着霍尔木兹海峡」。</div>
+  <div class="meta"><b>市场反应：</b>报道出现在美东10月13日盘中，与阿美总部遇袭叠加，共同构成当夜至次日亚洲早盘布伦特上涨1.34%的主要驱动；美股当日对此无明显定价（道指收跌0.35%）。 </div>
+  <div class="meta so"><b>对定价的含义：</b>尚未落地、美方未作实质承诺，因此不能按已发生事件定价，但它把尾部风险的分布整体右移了一格。真正的观察点不是这条报道本身，而是伊朗对美方谈判建议的回应——如果回应被拒，10月27日与11月3日两个选举节点会成为冲突升级的硬日程约束，油价的上行弹性会被提前锁定。</div>
+  <div class="meta dim"><b>来源：</b>央视新闻、CCTV国际时讯、财联社、以色列第12频道</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 01:30</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">俄乌「能源停火」48小时内被证伪，ICE柴油期货逆势大涨4.65%</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">莫斯科市长索比亚宁通报，10月12日20时30分至13日7时共417架无人机朝莫斯科地区方向飞行，65架在接近该市时被摧毁；同期俄军使用陆基高精度武器和无人机对乌克兰军工设施、物流中心、铁路和港口基础设施实施集群打击。这一系列军事行动发生在特朗普宣布俄乌「能源停火」后不足48小时。同时，美国7名两党参议员联名质疑放宽俄柴油进口违反2022年国会立法，要求政府撤回决定；乌方称事先并未获知停火安排。俄副外长里亚布科夫13日表示俄美乌三方会晤具体安排尚未达成。美国零售柴油价格9月创下每加仑6.53美元的纪录，周二约6.28美元。</div>
+  <div class="meta"><b>市场反应：</b>ICE柴油期货当日大涨4.65%，在原油仅微涨的背景下成为能源板块最突出的异动；能源交易商与分析人士表示俄柴油协议规定的燃料量不足以真正拉低价格。 </div>
+  <div class="meta so"><b>对定价的含义：</b>停火叙事从「僵持」转为「破裂」，降为3星主线。对定价的含义集中在成品油而非原油：唯一能压低柴油价格的边际供给在政治上不可执行，裂解价差的紧张无法靠外交声明解决。这正是通胀黏性的真实来源——CPI里的能源分项不会因一纸声明回落。</div>
+  <div class="meta dim"><b>来源：</b>华尔街见闻、金十数据、央视新闻、财联社</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 04:00</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">财报季开幕即遇挫：四大行业绩超预期却全线收跌</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">美东10月13日美股财报季揭幕，摩根大通、高盛、花旗、富国银行同日披露。摩根大通调整后营收509.1亿美元、低于市场预期513.7亿美元，总交易收入103亿美元亦逊于预期，固定收益交易收入同比下降4%为两年多来首次下滑，股票交易收入则同比大涨49%至49.5亿美元创历史最佳季度，另录得6.58亿美元净投资证券亏损，当季回购削减近九成至6.64亿美元，收跌约0.86%。高盛EPS与营收大幅超预期、早盘一度涨超4%，最终收跌0.23%。花旗业绩超预期但收跌5.6%，市场担忧其交易收入环比下降与信用卡利润承压。富国银行营收218.7亿美元、净利息收入125.2亿美元均不及预期，收跌3.08%。三家银行三季度合计净利息收入565亿美元，连续第五个季度刷新历史纪录，摩根大通预测净利息收入2027年将继续攀升。美国银行与摩根士丹利将于周三披露。</div>
+  <div class="meta"><b>市场反应：</b>道琼斯指数盘中一度上涨超过400点，但三大指数相继翻绿，道指完全回吐涨幅、收跌0.35%报51670.10点，标普500跌0.02%报7805.45点，纳指跌0.15%报27204.38点；标普500与纳指均连续第二日下跌。富国银行在财报中明确警告更高的利率、更高的油价与持续的通胀对经济构成风险。 </div>
+  <div class="meta so"><b>对定价的含义：</b>这是「预期已在高位」的第一个实证：FactSet数据显示分析师平均预计标普500三季度利润同比增长近30%，业绩超预期却仍被卖出，说明市场对增长的定价已经透支。真正值得记的是净利息收入连续五季创纪录——高利率环境对银行是收入端利好、对成长股是估值端利空，这个剪刀差会在整个财报季里反复出现。</div>
+  <div class="meta dim"><b>来源：</b>财联社、第一财经、华尔街见闻、中国证券报</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 04:10</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">威廉姆斯给加息周期画终点：今年再加一次，2027不必再加</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">纽约联储主席、FOMC「三把手」约翰·威廉姆斯周二表示，今年再加息一次是合适的选择，但目前没有理由认为2027年还需要进一步加息；他称没有迹象表明劳动力市场正在推动通胀，除AI和能源行业外未看到其他领域普遍存在价格压力，并主张在能源与AI相关价格冲击下关注通胀的「潜在趋势」，认为关税对价格增长的影响大多已经显现。据CME「美联储观察」，10月维持利率不变概率77.3%、累计加息25个基点概率22.7%，年内至少再加息一次概率87.8%。30年期美债收益率近三个交易日回落近10个基点。</div>
+  <div class="meta"><b>市场反应：</b>表态出现在尾盘阶段，对市场形成提振，帮助三大指数收窄跌幅；30年期美债收益率近三个交易日累计回落近10个基点，长端在油价上行的背景下反而走强。 </div>
+  <div class="meta so"><b>对定价的含义：</b>关键变化不是方向而是终点：威廉姆斯实际把加息周期限定在了年内，与哈马克此前的鹰派表态形成内部分歧。长端收益率回落说明市场买入的是「通胀是能源与AI的局部冲击」这一判断；若今晚CPI的核心分项超预期，短端会重新定价而长端的支撑逻辑会松动，届时高估值成长股承受的是双重压力。</div>
+  <div class="meta dim"><b>来源：</b>财联社、第一财经、中国证券网、智通财经</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 04:20</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">费半五连阴、应用材料跌6.69%，博通与英特尔CEO警告资本约束</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">美东10月13日费城半导体指数盘中一度跌超3%、收跌0.23%，为连续第五个交易日下跌。应用材料重挫6.69%领跌，公司在投资者日给出的财务预测缺乏具体细节，同时宣布投资50亿美元在美国加州硅谷建立「设备与工艺创新及商业化中心」（EPIC）。存储链继续承压但尾盘拉升：美光科技跌3.62%、SK海力士ADR跌3.19%，格芯、科天半导体跌超3%，闪迪跌幅从日内最多超4%收窄至0.34%，希捷科技从跌超6%收窄至0.8%。博通CEO陈福阳周一在会议上警告，随着利率上行，资本获取可能成为AI公司最大的约束；英特尔CEO陈立武亦表达了对资本可得性与投资回报的疑虑。周二收盘后SK海力士美股相对韩股的溢价达到46.5%。</div>
+  <div class="meta"><b>市场反应：</b>费半五连阴、盘中跌超3%显示抛压仍重；但存储板块尾盘的显著拉升与SK海力士美股46.5%的溢价，说明卖压集中在亚洲时段、美股投资者并未同等程度跟随。 </div>
+  <div class="meta so"><b>对定价的含义：</b>硬件端的压力来源正在从「需求是否被证伪」转向「资本开支能否被融资」——这是利率上行传导到AI链的真实渠道，也是博通与英特尔CEO同时发声的原因。对A股与港股的含义：存储与设备链的估值锚已经下移，后续反弹需要的是融资环境或订单的实质改善，而不是情绪修复。</div>
+  <div class="meta dim"><b>来源：</b>财联社、第一财经、中国证券报、CNBC</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 04:30</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">微软、苹果双双刷新收盘新高，AI交易从硬件切向平台</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">美东10月13日大型科技与软件平台股逆势走强：微软涨0.43%、自去年10月以来首度刷新收盘历史新高，得益于自研芯片大规模部署与软件板块回暖；苹果涨0.09%、刷新9月底以来收盘新高，同日正式进军智能家居市场，推出售价299美元、搭载新一代Siri的HomeView终端；Meta受Muse Wonder模型发布及分析师上调目标价推动涨2.63%；甲骨文在没有明确新增催化的情况下逆势涨4.23%；AI数据中心开发商Fermi因AMD为项目租约提供信用支持大涨14.46%；英伟达涨0.97%。万得美国科技七巨头指数涨0.44%。强生上调全年指引但中值仍低于华尔街预期，收跌5.73%。</div>
+  <div class="meta"><b>市场反应：</b>在费半五连阴、三大指数收跌的背景下，科技七巨头指数逆势涨0.44%，微软与苹果同时刷新收盘新高——这是AI交易内部结构性分化的最直接证据。 </div>
+  <div class="meta so"><b>对定价的含义：</b>同一天里硬件跌、平台涨，含义是市场开始区分「谁承担资本开支」与「谁拿到现金流」。重资产、长周期的算力与存储在加息环境下被折价，轻资产、即时变现的软件与平台被溢价。这一分化若持续，AI板块将从普涨进入按商业模式定价的阶段，指数层面的AI暴露度不再是有效的风险敞口指标。</div>
+  <div class="meta dim"><b>来源：</b>财联社、第一财经、新浪财经、中国证券报</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-14 09:00</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">日韩高开、韩股止跌：KOSPI涨0.44%，日经225涨0.24%</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">北京时间10月14日开盘，韩国综合指数高开0.44%报6062.08点，日经225指数高开0.24%报67942.23点。前一交易日（10月13日）韩国综合指数收跌5.46%报6035.35点，SK海力士跌超10%、三星电子跌超7%；日经225收跌1.82%报67777.52点。支撑因素包括隔夜美股存储板块尾盘显著拉升，以及SK海力士美股相对韩股46.5%的溢价。10月14日A股尚未开盘。</div>
+  <div class="meta"><b>市场反应：</b>韩股在两个交易日内累计下跌逾7%后首次高开，日经同步反弹，属跨市场同步调整的初步企稳信号，但开盘涨幅均在0.5%以内，力度有限。 </div>
+  <div class="meta so"><b>对定价的含义：</b>止跌的性质要看量能：如果高开后放量走高，说明10月13日那波是仓位的一次性清洗；如果缩量高开回落，则说明拥挤交易的解杠杆尚未结束，A股与港股的存储、光模块链会继续承压。今夜CPI与Anthropic披露之前，亚太市场大概率维持这种低幅度的观望状态。</div>
+  <div class="meta dim"><b>来源：</b>财联社、每日经济新闻、中国证券网</div>
+</div><h2>四、后续观察点</h2><ul><li>今晚（美东10月14日）美国9月CPI：据尼克·蒂米劳斯统计，主要大行均预期整体通胀随油价显著上行、核心通胀保持温和。核心分项若超预期，威廉姆斯「年内终点」的说法会被重新定价，长端收益率的回落也将逆转</li><li>Anthropic于美东周三（10月14日）向机构投资者首次披露三季度财务数据：核心看是否把云合作伙伴收入计入，与OpenAI（剔除）的口径是否一致。上周正是OpenAI收入口径的混乱拖累半导体板块与纳指</li><li>美国银行、摩根士丹利周三披露财报；FactSet预期标普500三季度盈利同比增长近30%，四大行「超预期仍被卖」已经提示预期处于高位</li><li>美方是否就最新谈判建议获得伊朗回应，以及美以是否真在推进联合打击——10月27日以色列议会选举与11月3日美国中期选举是两个硬日程节点</li><li>布伦特能否站稳107美元并挑战10月12日盘中高点107.33美元；同时关注布伦特−WTI价差11.75美元（常态4–6美元），已用日K复核为真实走阔</li><li>韩股与A股存储链的高开能否放量延续——缩量高开不成立，量能是判断「一次性踩踏」还是「去杠杆未完」的唯一指标</li></ul><h2>五、口径与存疑</h2><ul><li>行情口径：布伦特107.11美元、WTI 95.36美元为北京时间10月14日09:19实时价，较10月13日结算价分别上涨1.34%与1.29%；10月13日结算价为布伦特105.69美元（跌0.9%）、WTI 94.14美元（涨0.43%，新华社口径）。美股为美东10月13日收盘；A股与港股为10月13日收盘，10月14日尚未开盘；在岸人民币6.692。</li><li>布伦特−WTI价差11.75美元，仍显著高于常态4至6美元。已用新浪期货日K复核（10月13日布伦特收106.20、WTI收94.77，价差11.43），确认属真实走阔而非数据污染。另：日K收盘价与交易所结算价存在约0.5美元差异，属合约与口径差，两者均有效。</li><li>美债收益率采用FRED官方序列，滞后1至2个交易日，最新为10月9日（10年期5.24%、2年期4.80%、30年期5.60%）；本期引用的「30年期美债收益率近三个交易日回落近10个基点」来自第一财经转述的市场数据，非一手接口，已标注来源。</li><li>旧文剔除：检索命中的某门户「10月14日国际晨讯」（道指46067.58点、标普6654.72点、纳指22694.61点、白银52.776美元、OpenAI与博通2026年下半年10吉瓦合作、费城联储主席支持2025年再降息两次）与新华财经2025年10月13日收评（沪指3889.50点）均为往年同月同日旧文，量级与一手行情不符，已整段剔除。另有两条「日韩开盘」数据（日经63659点与68811点、KOSPI 6692点与6995点）与一手行情点位不符，一并剔除。</li><li>本期未发现聚合站把往月旧闻标为当日新闻的污染；所有价位均来自一手接口或新华社、央视、财联社等主流源。</li></ul></div><div class="issue" id="i3"><div class="sub">窗口：2026-10-13 08:30 → 2026-10-13 21:25　｜　生成时间：2026-10-13 21:29</div>
+<div class="headline"><b>AI硬件的拥挤交易在韩国股市暴跌中继续出清，油价地缘溢价被沙特供应替代叙事部分对冲，A股在科技链深V反弹中收复3800点；市场在周三CPI与周四台积电财报前进入最后的仓位校准</b></div>
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>105.69</td><td class='num'><span class="down">-0.90%</span></td></tr><tr><td>WTI原油</td><td class='num'>92.91</td><td class='num'><span class="down">-0.89%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,176.66</td><td class='num'><span class="down">-0.33%</span></td></tr><tr><td>纽约白银</td><td class='num'>60.02</td><td class='num'><span class="down">-0.82%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,752.41</td><td class='num'><span class="down">-1.18%</span></td></tr><tr><td>深证成指</td><td class='num'>12,138.47</td><td class='num'><span class="down">-1.99%</span></td></tr><tr><td>创业板指</td><td class='num'>2,888.70</td><td class='num'><span class="down">-2.53%</span></td></tr><tr><td>科创50</td><td class='num'>1,391.83</td><td class='num'><span class="down">-2.45%</span></td></tr><tr><td>沪深300</td><td class='num'>4,230.70</td><td class='num'><span class="down">-1.34%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,168.26</td><td class='num'><span class="down">-0.42%</span></td></tr><tr><td>国企指数</td><td class='num'>8,130.31</td><td class='num'><span class="down">-0.47%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,850.55</td><td class='num'><span class="up">+0.38%</span></td></tr><tr><td>纳斯达克</td><td class='num'>27,245.90</td><td class='num'><span class="down">-0.44%</span></td></tr><tr><td>标普500</td><td class='num'>7,807.24</td><td class='num'><span class="down">-0.06%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.22%</td><td class='num'><span class="down">-0.06pp</span></td><td class='dim'>2026-10-08</td></tr><tr><td>美债2年</td><td class='num'>4.75%</td><td class='num'><span class="down">-0.02pp</span></td><td class='dim'>2026-10-08</td></tr><tr><td>美债30年</td><td class='num'>5.60%</td><td class='num'><span class="down">-0.07pp</span></td><td class='dim'>2026-10-08</td></tr></table></div></div><div class="sanity wide">数据校验：布伦特−WTI价差 <b>12.78</b> 美元（常态 4~6 美元）— 偏阔但属已知的结构性走阔（中东与大西洋盆地供应割裂），引用前用日K或第二信源复核即可，不判为污染</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+  <div class="thhead">
+    <span class="tname">中东供应与霍尔木兹风险溢价</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 09-24</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>胡塞连续袭击沙特机场（利雅得哈立德国王机场关闭延长至10-18），霍尔木兹第三艘油轮遇袭后续仍在发酵；但沙特能源大臣Abdulaziz bin Salman在利雅得世界石油大会释放可在7-8周内新增120万桶/日管道能力、2-3年内将绕开海峡的管道扩至1000万桶/日的信号，布伦特从周一收盘106.65美元回落至105.39美元。</div>
+  <div class="tso"><b>对定价的含义：</b>油价上行斜率被供应替代叙事部分对冲，风险溢价进入高位震荡而非失控；若美伊谈判或沙特增产兑现，105-106美元可能形成短期顶。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">存储与AI硬件的拥挤交易</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 10-02</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>博通CEO陈福阳在新加坡称“资本约束可能比芯片/内存/电力短缺更大阻碍AI建设”，并将部分AI投资者比作赌徒，英特尔CEO陈立武附和ROI担忧；韩国KOSPI今日收跌5.46%报6035.35点并触发程序化卖盘暂停机制，SK海力士跌超10%、三星电子跌超7%；A股半导体早盘大跌、午后深V反弹，科创50从盘中-3%翻红至+0.03%。</div>
+  <div class="tso"><b>对定价的含义：</b>估值拥挤触发亚太联动去杠杆，但A股午后承接说明国内资金对科技链仍有信仰；关键看周四台积电财报能否给出毛利率与资本开支的定心丸。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">AI算力自研化与商业化验证</span>
+    <span class="tstat" style="color:#2563eb;border-color:#2563eb">推进</span>
+    <span class="tsince">起于 09-28</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>微软宣布2027年起大规模部署自研Azure Maia 300芯片（计划部署超100万颗），并称每兆瓦算力较GPU系统高约40%；苹果举行“Welcome Home”活动，预计将推出带屏智能家居中枢HomePad、HomePod mini 2与Apple TV 4K，核心卖点为升级版Siri AI；OpenAI/Meta等模型降价潮持续。</div>
+  <div class="tso"><b>对定价的含义：</b>云厂商自研芯片加速，对英伟达/博通的中期份额构成压力；智能家居是AI Agent新场景，但短期硬件增量有限，更多体现为生态卡位。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">美联储加息路径与美债长端</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-15</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>美联储理事沃勒在彭博新经济论坛表示长端收益率上升正在“分担一部分紧缩工作”，AI基建短期推升通胀、长期提升生产率；市场12月加息概率维持约87%高位，10Y美债收益率从上周5.36%高点回落至5.19%附近。</div>
+  <div class="tso"><b>对定价的含义：</b>美债收益率曲线代替部分加息功能，10月按兵不动概率约80%；但周三CPI仍是12月定价的终审，核心环比≥0.3%可能重燃长端抛售。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">俄乌「能源停火」</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 10-11</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>特朗普称停火存在违反，乌克兰表示将继续打击俄能源设施；俄美企业开始就柴油供应交易谈判，俄副总理诺瓦克称未来或每月向全球供应350万吨柴油。</div>
+  <div class="tso"><b>对定价的含义：</b>能源停火叙事未获基辅确认，柴油增量对油价构成温和对冲，但量级不足以扭转地缘溢价；停火预期是当前油价最大的下行期权。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">A股政策接力与风格分化</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-30</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>A股今日探底回升收复3800点，沪指+0.10%、深成指-0.25%、创业板指-0.18%、科创50+0.03%；沪深京三市成交额1.69万亿元，较昨日放量约1382亿元。板块上PCB/军工/CPO领涨，保险/电池/风电领跌，银行高位回调。</div>
+  <div class="tso"><b>对定价的含义：</b>指数在7月低点附近获得承接，但杠杆资金仍处年内低位；风格从节前“银行独涨”转向“科技超跌修复”，持续性取决于三季报盈利验证与海外科技链企稳。</div>
+</div><h2>三、本期事件时间线（按重要程度评星）</h2><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 09:30</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">中国9月进出口规模创年内单月新高</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">海关总署公布，9月我国进出口总值4.04万亿元人民币，同比增长8%，规模创年内单月新高；前三季度进出口33.61万亿元，同比增长4%。其中出口19.95万亿元，同比增长7.1%。</div>
+  <div class="meta"><b>市场反应：</b>人民币中间价上调15bp至6.7298，离岸人民币稳定在6.69附近；但A股反应平淡，沪指收盘仅+0.10%，说明市场对“抢出口”窗口已有预期。 </div>
+  <div class="meta so"><b>对定价的含义：</b>出口韧性为人民币汇率和国内制造业提供底盘，但在外需不确定与关税前置效应下，数据对风险偏好的提振边际递减。</div>
+  <div class="meta dim"><b>来源：</b>海关总署、新华财经、中国新闻网</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 09:47</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">韩国KOSPI暴跌超5%触发程序化卖盘暂停机制</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">韩国综合股价指数收跌5.46%报6035.35点，创8月以来收盘新低；权重股SK海力士跌超10%，三星电子跌超7%。韩国交易所因KOSPI 200期货大幅波动触发“卖方侧车”机制，暂停主板程序化卖盘5分钟。</div>
+  <div class="meta"><b>市场反应：</b>外资年内累计净卖出KOSPI约199万亿韩元，其中三星与SK海力士合计占87%；A股半导体早盘跟跌，午后V型反弹，科创50从-3%翻红至+0.03%，光模块龙头中际旭创获16亿元主力资金净流入。 </div>
+  <div class="meta so"><b>对定价的含义：</b>存储/AI硬件的全球拥挤交易进入亚太联动出清阶段，A股承接力度是判断国内科技链是否已企稳的关键信号。</div>
+  <div class="meta dim"><b>来源：</b>中国新闻网、中央社、上海证券报</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 10:00</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">沙特承诺7-8周内新增120万桶/日绕海峡输油能力</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">沙特能源大臣Abdulaziz bin Salman在利雅得世界石油大会表示，计划2-3年内将通往波斯湾以外的管道输送能力从当前约700万桶/日提升至1000万桶/日；可临时将一条天然气管道改造用于输油，最快7-8周内增加约120万桶/日能力。</div>
+  <div class="meta"><b>市场反应：</b>布伦特从周一收盘106.65美元回落至105.39美元（-1.18%），WTI从93.74美元跌至92.99美元（-0.8%），Brent-WTI价差维持12.4美元高位。 </div>
+  <div class="meta so"><b>对定价的含义：</b>沙特用管道替代部分霍尔木兹航运，削弱了封锁升级的失控叙事；油价地缘溢价从“供应中断”向“运输成本+替代路线”切换。</div>
+  <div class="meta dim"><b>来源：</b>彭博、路透、华尔街见闻</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 15:45</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">美联储理事沃勒：美债收益率上升正在替代部分加息</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">美联储理事沃勒在彭博新经济论坛表示，长期美债收益率上升正在“分担一部分抑制需求的工作”，影响住房、汽车等利率敏感领域；他同时称AI基础设施建设短期推升通胀，长期有望提高生产率，并警告特朗普对央行独立性的威胁迄今尚未得逞。</div>
+  <div class="meta"><b>市场反应：</b>10Y美债收益率从上周5.36%高点回落至5.19%附近，美元指数小幅回落至102.3区域；但CME FedWatch显示12月加息概率仍维持约87%。 </div>
+  <div class="meta so"><b>对定价的含义：</b>长端收益率上行被美联储内部视为“被动紧缩”，为10月按兵不动提供理由；但周三CPI若超预期，仍可能推翻这一舒适区。</div>
+  <div class="meta dim"><b>来源：</b>彭博、新华财经、汇通网</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 20:00</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">微软宣布2027年起大规模部署自研AI芯片Maia 300</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">据路透社报道，微软发布第三代定制AI芯片Azure Maia 300，计划2027年部署超过100万颗，用于支持内部AI服务与Azure推理工作负载；微软称该芯片每兆瓦算力较“领先GPU系统”高约40%。</div>
+  <div class="meta"><b>市场反应：</b>消息强化云厂商自研芯片叙事；美股盘前存储/AI硬件股继续承压，西部数据盘前跌超7%、SK海力士跌超6%、美光跌超4%。 </div>
+  <div class="meta so"><b>对定价的含义：</b> hyperscaler自研芯片从“防御性研发”进入“规模化部署”，英伟达在训练端的统治力短期难撼动，但推理端份额面临中长期侵蚀。</div>
+  <div class="meta dim"><b>来源：</b>路透、环球网、中新经纬</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 20:30</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">美股Q3财报季揭幕，大行业绩分化</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">摩根大通、高盛、花旗、富国银行披露Q3业绩。摩根大通调整后营收509.1亿美元低于预期；高盛净营收186.8亿美元，同比+23%；花旗营收238.5亿美元，同比+8%；富国银行营收218.7亿美元低于预期。</div>
+  <div class="meta"><b>市场反应：</b>盘前道指期货涨约0.9%、标普500指数期货基本持平、纳指期货跌约0.7%；银行股成为盘前焦点，市场关注高利率环境下净息差与信用成本。 </div>
+  <div class="meta so"><b>对定价的含义：</b>银行财报为评估高利率实体经济冲击提供首批证据；交易收入强劲但净息差压力隐现，对金融股估值修复的可持续性需逐季验证。</div>
+  <div class="meta dim"><b>来源：</b>财联社、新浪财经、格隆汇</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 21:00</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">苹果举行“Welcome Home”智能家居发布会</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">苹果在北京时间21:00举行活动，预计将推出带触摸屏的智能家居中枢（HomePad/Hub）、HomePod mini 2及新一代Apple TV 4K，核心卖点为升级版Siri AI与家庭自动化。</div>
+  <div class="meta"><b>市场反应：</b>事件在美股开盘前举行，短期股价反应有限；但标志着苹果AI能力从手机/PC向家居场景延伸，与亚马逊Echo/Google Nest直接竞争。 </div>
+  <div class="meta so"><b>对定价的含义：</b>智能家居是AI Agent落地的重要入口，苹果能否复制手机生态的封闭优势将决定其能否打开新的硬件增长曲线。</div>
+  <div class="meta dim"><b>来源：</b>路透、彭博、财联社</div>
+</div><h2>四、后续观察点</h2><ul><li>周三20:30美国9月CPI：核心环比0.3%是重要阈值，超预期将重燃12月加息与长端美债抛售</li><li>周四台积电Q3财报：毛利率、资本开支与AI收入占比是判断硬件景气度的关键</li><li>霍尔木兹通航与沙特管道增供兑现节奏：决定油价风险溢价是否从高位回落</li><li>美联储10月28日决议前最后一批官员表态：10月按兵不动概率约80%，重点在12月路径</li></ul><h2>五、口径与存疑</h2><ul><li>布伦特-WTI价差12.41美元，经OilPrice、汇通网、彭博等多源复核为真实市场结构（沙特优先释出柴油、美湾飓风扰动、霍尔木兹运输成本推升Brent溢价），非数据污染。</li><li>美债10Y/2Y/30Y现金收益率最新一手数据截至10月8日（哥伦布日周一休市），日内收益率变动来自期货/媒体口径。</li><li>A股成交额1.69万亿元为沪深京三市口径；北向资金当日数据未获一致口径，未写入。</li><li>苹果发布会于21:00开始，部分细节基于路透/彭博预热报道；产品定价与股价反应待收盘后确认。</li></ul></div><div class="issue" id="i4"><div class="sub">窗口：2026-10-12 21:30 → 2026-10-13 09:17　｜　生成时间：2026-10-13 09:28</div>
+<div class="headline"><b>霍尔木兹单日四起袭船与利雅得机场连日遇袭把布伦特顶到106.65美元的两周高位，同一夜AI硬件的拥挤交易却率先崩塌——费半跌2.67%、今晨KOSPI跌超4%、铠侠跌近10%；油价上行的通胀压力与哈马克的鹰派表态在同一天叠加，今晚银行财报与周三CPI将决定这轮下跌是仓位的一次性清洗还是估值路径的转向。</b></div>
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>105.58</td><td class='num'><span class="down">-1.01%</span></td></tr><tr><td>WTI原油</td><td class='num'>92.78</td><td class='num'><span class="down">-1.03%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,192.52</td><td class='num'><span class="up">+0.05%</span></td></tr><tr><td>纽约白银</td><td class='num'>60.42</td><td class='num'><span class="down">-0.15%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,797.21</td><td class='num'><span class="flat">-0.00%</span></td></tr><tr><td>深证成指</td><td class='num'>0.00</td><td class='num'><span class="na">—</span></td></tr><tr><td>创业板指</td><td class='num'>0.00</td><td class='num'><span class="na">—</span></td></tr><tr><td>科创50</td><td class='num'>1,426.72</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>沪深300</td><td class='num'>4,287.98</td><td class='num'><span class="flat">0.00%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,271.20</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>国企指数</td><td class='num'>8,168.57</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,850.55</td><td class='num'><span class="up">+0.38%</span></td></tr><tr><td>纳斯达克</td><td class='num'>27,245.90</td><td class='num'><span class="down">-0.44%</span></td></tr><tr><td>标普500</td><td class='num'>7,807.24</td><td class='num'><span class="down">-0.06%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.22%</td><td class='num'><span class="down">-0.06pp</span></td><td class='dim'>2026-10-08</td></tr><tr><td>美债2年</td><td class='num'>4.75%</td><td class='num'><span class="down">-0.02pp</span></td><td class='dim'>2026-10-08</td></tr><tr><td>美债30年</td><td class='num'>5.60%</td><td class='num'><span class="down">-0.07pp</span></td><td class='dim'>2026-10-08</td></tr></table></div></div><div class="sanity wide">数据校验：布伦特−WTI价差 <b>12.8</b> 美元（常态 4~6 美元）— 偏阔但属已知的结构性走阔（中东与大西洋盆地供应割裂），引用前用日K或第二信源复核即可，不判为污染</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+  <div class="thhead">
+    <span class="tname">中东供应与霍尔木兹风险溢价</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 09-24</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：10月11日霍尔木兹及阿曼湾单日4起袭船（UKMTO口径，另加10月9–10日3起），IRGC称一艘关闭导航的超级油轮触雷起火并警告执法将不限于海峡；伊朗安全委员会秘书Rezaei称美方对伊方七条件的回应“不充分”、伊方“不再处于回应美方的过程中”。通行量仍近乎瘫痪——IMF PortWatch记录10月4日仅4艘通过，危机前基线85艘/天。</div>
+  <div class="tso"><b>对定价的含义：</b>溢价从事件驱动转为结构性：布伦特已站上106美元、100美元成为地板而非上沿。风险在于伊朗把封锁常态化当作谈判筹码，缓和与升级都可能是几天内的双向反复，油价对单次停火消息的反应弹性正在衰减。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">存储与AI硬件的拥挤交易</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">转向</span>
+    <span class="tsince">起于 10-02</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：长鑫科技10月10日官宣4F² DRAM架构（自研VSG垂直包围沟道晶体管）年底推出DDR5 RDIMM，被多家媒体列为美股存储股暴跌的触发因素；叠加光通信前期涨幅过大后的踩踏。市场叙事由“涨价超级周期”转向“周期是否见顶+持仓拥挤度”。</div>
+  <div class="tso"><b>对定价的含义：</b>这是本轮AI硬件第一次出现需求未证伪、仅因供给预期与仓位就崩跌的组合。若4F²在2027年后带来供给弹性，HBM超级周期的定价前提被削弱；短期看的是量能，不是基本面。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">AI算力自研化与商业化验证</span>
+    <span class="tstat" style="color:#2563eb;border-color:#2563eb">推进</span>
+    <span class="tsince">起于 09-28</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：微软公布第三代自研芯片Maia 300，2027年起部署超100万颗、Azure Maia扩展至数吉瓦规模，成为主要AI推理系统，每兆瓦token产出较领先GPU系统高约40%；Meta发布Muse Wonder双模型，称部分基准超过Claude Opus 5.5与GPT-6 Astra。</div>
+  <div class="tso"><b>对定价的含义：</b>自研推理与模型平权是同向的两股力量：短期不改算力景气，中期却同时稀释英伟达的份额与前沿模型的定价权——AI叙事正在从“总量扩张”进入“份额再分配”，分化会取代普涨。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">美联储加息路径与美债长端</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 09-15</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：克利夫兰联储主席哈马克称当前政策限制性不够、通胀回归过慢，应较快转向更具限制性立场并小步快跑；CME定价10月加息概率升至约22%（上周五17.7%），12月累计加息概率70.3%。油价站上106美元强化鹰派论据。</div>
+  <div class="tso"><b>对定价的含义：</b>注意方向——当前博弈的是加息而非降息。油价与鹰派表态共振，长端美债收益率是成长股估值的第一变量；周三CPI若如预期升至3.6%，10月加息定价将继续上移。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">俄乌「能源停火」</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 10-11</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：佩斯科夫称相关接触仍在进行；泽连斯基表示支持特朗普的提议，但称尚未从俄方行动中看到迹象。停火消息10月12日盘中一度把布伦特压至102.33美元，尾盘全部收复并收在106.65美元。</div>
+  <div class="tso"><b>对定价的含义：</b>这条线已被霍尔木兹与胡塞两条主线压过，短期不构成有效的减溢价来源；只有俄方实际停止打击能源设施并被第三方核实，才会对油价产生方向性影响。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">A股杠杆降温与风格切换</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 10-12</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本期增量：10月12日上证收跌0.43%报3797.24点、深成指跌2.03%、创业板指跌2.61%，成交额15507亿元较前一交易日缩量3659亿元，超4300只个股下跌、AI板块领跌；截至10月9日两融余额2.56万亿元创年内新低，较年内高点3.03万亿元回落近4700亿元。同日恒指涨0.25%，工行、建行、中行等国有大行股价创历史新高。</div>
+  <div class="tso"><b>对定价的含义：</b>杠杆资金退潮与港股高股息创新高是同一枚硬币：外部成本冲击（油价）与科技财报焦虑同时压制风险偏好，资金从成长切向防御。节后修复的验证条件是放量，缩量反弹不成立。</div>
+</div><h2>三、本期事件时间线（按重要程度评星）</h2><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 01:30</span>
+    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
+    <span class="tt">胡塞再袭利雅得机场与空军基地，机场关闭延至10月18日</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">也门胡塞武装军事发言人叶海亚·萨雷亚声明称，当地时间12日晚用一枚弹道导弹袭击利雅得哈立德国王国际机场并称精准命中，同时用无人机袭击沙特西南部海米斯穆谢特的哈立德国王空军基地。沙特主导的多国联军称拦截并摧毁了这枚弹道导弹。该机场11日遇袭致1死11伤、10日遇袭致12死309伤，暂停运营延长至沙特当地时间10月18日零时；胡塞称除麦加、麦地那外沙特所有机场均在射程内，并称过去24小时沙特对也门萨那等5省发动119次空袭。</div>
+  <div class="meta"><b>市场反应：</b>沙特首都机场四天内第四次遇袭、累计伤亡超300人；沙特已启动防空系统失效调查，拦截弹库存告急，正向法国、英国、巴基斯坦、埃及求援。油价当日收于两周高位。 </div>
+  <div class="meta so"><b>对定价的含义：</b>打击对象从军事设施转向民用航空枢纽，但仍保留两座圣城不打——这是有控制的升级，目的是逼沙特停止空袭并解除封锁。对油价的含义：沙特本土出口设施暂未被直接命中，但风险半径在收窄，地缘溢价易上难下。</div>
+  <div class="meta dim"><b>来源：</b>新华社、央视新闻、中新网、华尔街日报</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 03:30</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">美股存储与光通信集体崩跌，长鑫4F²架构成导火索</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">美东10月12日收盘，费城半导体指数跌2.67%创三周新低。光通信：Ciena跌9.95%、Lumentum跌9.78%、Coherent跌7.87%、康宁跌6%、迈威尔跌3.42%。存储：铠侠ADR跌6.35%、闪迪跌5.97%、SK海力士跌4.02%、美光跌3.88%、西部数据跌4.02%。半导体：ARM跌4.15%、英特尔跌3.20%、AMD跌2.28%、博通跌1.88%、台积电跌1.92%、英伟达跌1.29%。多家媒体将存储股下跌归因于长鑫科技10月10日官宣的4F² DRAM架构突破（自研VSG垂直包围沟道晶体管，预计年底推出新一代DDR5 RDIMM）；光通信则为前期涨幅过大后的拥挤交易踩踏——Lumentum此前曾表示产能已售罄至2029年初。</div>
+  <div class="meta"><b>市场反应：</b>费半跌2.67%创三周新低，标普500科技板块跌约1%为当日最大拖累；纳指跌0.44%、标普跌0.06%，而道指靠能源权重涨0.38%。周一美股成交量创2026年新低。 </div>
+  <div class="meta so"><b>对定价的含义：</b>跌的是估值与仓位，不是需求——三星Q3营业利润预告107.4万亿韩元、SK海力士盈利同样改善，基本面尚未证伪。但对A股与港股存储链是估值锚下移的直接信号；真正的分歧点是长鑫4F²若如期落地，2027年后供给弹性上升，当前HBM超级周期的定价前提会被削弱。</div>
+  <div class="meta dim"><b>来源：</b>财联社、第一财经、中新经纬、TrendForce</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 04:00</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">微软公布Maia 300自研芯片，市值一年后重回4万亿美元</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">微软宣布第三代自研AI芯片Maia 300，计划自2027年起部署超100万颗，并将Azure Maia系列扩展至数吉瓦规模，成为微软产品与服务的主要AI推理系统；Maia 300每兆瓦功率对应的token产出较领先GPU系统高约40%，主要面向长上下文推理、低延迟对话与多步骤智能体任务。Maia 200已用于Microsoft Copilot，GitHub Copilot与Microsoft Foundry预计年底前跟进。</div>
+  <div class="meta"><b>市场反应：</b>微软收涨1.14%，市值自2025年10月以来首次站上4万亿美元；同日英伟达跌1.29%、博通跌1.88%、AMD跌2.28%，芯片与云厂商走势分道。 </div>
+  <div class="meta so"><b>对定价的含义：</b>云厂商自研推理芯片从中试走向主力供给，是对英伟达推理份额的实质性稀释。但时点在2027年——短期不改变算力链景气，中期改变的是估值倍数：英伟达“不可替代”的叙事被削弱，AI硬件的定价要从总量增长切换到份额保卫。</div>
+  <div class="meta dim"><b>来源：</b>路透、微软官方博客、中新经纬</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 04:20</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">Meta发布Muse Wonder双模型，扎克伯格称已在前沿追上对手</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">Meta发布Muse Wonder与Muse Wonder Full两款模型，称在部分智能体、编程与知识工作基准测试中达到或超过Anthropic的Claude Opus 5.5、Fable 5.1与OpenAI的GPT-6 Astra，可用于从理解租约到解读财务或健康信息等复杂任务。扎克伯格称Meta已在前沿领域追上竞争对手，模型开发“从现在起可能会明显提速”，并承诺继续大举投入挑战Anthropic与OpenAI。</div>
+  <div class="meta"><b>市场反应：</b>Meta收涨3.38%，推动标普500通信服务板块涨1.3%，为当日第二领涨板块。 </div>
+  <div class="meta so"><b>对定价的含义：</b>前沿模型竞赛从两强变三强，直接压缩OpenAI与Anthropic的估值溢价；同时模型能力提升意味着推理token消耗继续放大，对算力需求是正向的——但它利好的是性价比，不是单价，这与微软自研芯片的方向一致。</div>
+  <div class="meta dim"><b>来源：</b>财联社、金融时报、中新经纬</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 05:00</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">布伦特收106.65美元、WTI收93.74美元，双双收于两周高位</span>
+    
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">美东10月12日收盘，伦敦布伦特12月合约涨1.84%至106.65美元/桶，NYMEX WTI 11月合约涨2.06%至93.74美元/桶。盘中布伦特一度冲高至107.33美元，也曾因特朗普宣布俄乌“能源停火”回落至102.33美元，尾盘全部收复。标普500能源指数涨1.48%，康菲石油涨2.58%、埃克森美孚涨1.89%、雪佛龙涨1.43%、壳牌与西方石油涨超1%；航空股全线收跌，达美、联合航空跌超2%。</div>
+  <div class="meta"><b>市场反应：</b>能源是标普500十一大板块中涨幅第一（+1.48%），也是道指当日独涨0.38%的主要贡献；同时航空股跌超2%，形成完整的成本传导链。 </div>
+  <div class="meta so"><b>对定价的含义：</b>停火消息只压出约3美元且当日收复，说明地缘溢价的粘性高于供需缓和的弹性。油价站上106美元正在削弱通胀回落的前提，并通过加息预期反噬成长股估值——这是当前美股与A股共同的第一变量。</div>
+  <div class="meta dim"><b>来源：</b>新华社、新浪财经、路透</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 07:00</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">哈马克放鹰：政策限制性不够，CME定价10月加息概率升至22%</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">克利夫兰联储主席贝丝·哈马克表示，需要进一步收紧货币政策以降低通胀，当前政策的限制性还不够、通胀回归速度过慢、高通胀风险仍在上升；她主张幅度较小、频率较高的调整优于等待后大幅纠偏，但作为FOMC投票成员未明确支持本月加息。CME FedWatch显示交易员定价10月加息概率约22%（上周五17.7%），12月累计加息25个基点概率70.3%、50个基点17.3%。美联储9月会议纪要暗示可能再次投票加息。当日为哥伦布日，美国国债市场休市。</div>
+  <div class="meta"><b>市场反应：</b>美债休市、股市失去利率参照，当日美股成交量创2026年新低；美元指数涨0.37%至102.586，现货黄金跌0.56%至4170.70美元/盎司，COMEX黄金跌0.48%至4195.9美元，白银跌0.78%至60.57美元。 </div>
+  <div class="meta so"><b>对定价的含义：</b>当前博弈的方向是加息不是降息。油价上行正在给鹰派提供新论据，周三CPI若如预期自3.4%升至3.6%，10月加息定价将继续上移，长端收益率对高估值成长股的压制会更快兑现。</div>
+  <div class="meta dim"><b>来源：</b>路透、财联社、第一财经</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 08:00</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">Counterpoint：三季度全球智能手机出货同比降20%，2012年以来同期最低</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">Counterpoint Research初步数据显示，受内存成本飙升与零部件供应紧张影响，2026年三季度全球智能手机出货量同比下降约20%，为2012年以来第三季度最低水平。AI基础设施项目导致内存组件供应趋紧、价格上涨，推高制造商生产成本，厂商相应提高零售价并缩减出货量，转为优先保证盈利能力。</div>
+  <div class="meta"><b>市场反应：</b>这是AI对存储资源挤兑外溢至消费终端的第一份量化证据；与当日存储股暴跌形成呼应——同一份涨价，在上游是利润，在下游是需求破坏。 </div>
+  <div class="meta so"><b>对定价的含义：</b>存储涨价的可持续性需要拆开看：涨的是单价不是销量，终端量已在两位数萎缩。一旦AI资本开支边际放缓，价格弹性会很快消失——这正是“存储周期见顶”担忧的基本面支点，比仓位拥挤更值得跟踪。</div>
+  <div class="meta dim"><b>来源：</b>路透、中新经纬</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-13 09:10</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">亚太开盘接力杀存储：KOSPI跌超4%，铠侠跌近10%</span>
+    
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="desc">10月13日开盘，韩国KOSPI低开3.1%后跌幅扩大至4.37%报6105.50点，三星电子跌4.59%、SK海力士跌5.05%；日经225低开0.68%后跌1.86%报67745.61点，软银集团跌6.79%、铠侠跌近10%。前一交易日（10月12日）KOSPI已收跌3.65%报6384.24点创两个月收盘新低，三星与SK海力士双双跌超4%；日本股市因节假日休市。触发因素为隔夜美股AI硬件崩跌叠加哈马克的鹰派表态。</div>
+  <div class="meta"><b>市场反应：</b>KOSPI两日累计跌幅超过7%并创两个月新低，日经跌近2%，属跨市场的同步重定价，涉及股（韩日科技权重）、汇（韩元）、债（利率预期）三类资产。 </div>
+  <div class="meta so"><b>对定价的含义：</b>这是本轮AI硬件去杠杆从美股向亚太的传导确认。判断性质只需看一个指标——成交量：两日内缩量止跌更像一次性踩踏，继续放量下行则意味着拥挤交易的解杠杆尚未结束，A股与港股的存储、光模块链将同步承压。今夜银行财报能否把风险偏好拉回来是第一个检验。</div>
+  <div class="meta dim"><b>来源：</b>证券时报、中国基金报、同花顺、TradingKey</div>
+</div><h2>四、后续观察点</h2><ul><li>周三（10月14日）美国9月CPI，市场预期同比自8月的3.4%升至3.6%——超预期则10月加息定价继续上移，长端美债收益率是传导到成长股的关键一环</li><li>今晚（美东10月13日）摩根大通、高盛、花旗、富国银行集中披露三季报，标普500 Q3盈利预期同比+29.6%~31%（FactSet/LSEG），是本周多头的最大底牌</li><li>周四（10月15日）台积电财报，以及周内ASML订单数据——AI链的收入兑现与设备景气能否匹配当前估值，这两份是本周的锚点</li><li>霍尔木兹通行量能否从个位数回升（IMF PortWatch危机前基线85艘/天），以及伊朗对美方回应的正式答复；IRGC已警告执法不再限于海峡</li><li>韩股与A股存储链的成交量：放量续跌=去杠杆未完，缩量止跌=一次性踩踏</li><li>布伦特106–107美元能否站稳；同时关注布伦特−WTI价差已走阔至约13美元（常态4–6美元），这是跨区供应割裂的温度计</li></ul><h2>五、口径与存疑</h2><ul><li>行情口径：布伦特105.56美元、WTI 92.77美元为北京时间10月13日09:20实时价，10月12日收盘价分别为106.65美元与93.74美元；美股为美东10月12日收盘；A股与港股为10月12日收盘（10月13日A股尚未开盘、港股尚未定盘）；在岸人民币6.6936。</li><li>价差说明：布伦特−WTI价差约12.9至13.0美元，远超常态4至6美元区间。已用新浪期货日K（10月12日布伦特收106.13、WTI收93.16）与路透口径（布伦特106.10/WTI 93.10）交叉复核，确认属真实走阔而非数据污染，反映的是中东与大西洋盆地两个市场的供应割裂。</li><li>美债收益率采用FRED官方序列，滞后1至2个交易日，最新为10月8日（10年期5.22%、2年期4.75%、30年期5.60%）；10月12日美债因哥伦布日休市，无当日数据。</li><li>旧文剔除：检索结果中出现的某券商2021年10月13日综述（WTI 80.61美元、布伦特83.37美元）与某港股券商评论（美油59.56美元、布伦特63.39美元）均为往年同月同日旧文，与一手行情量级不符，已剔除。</li><li>本期未发现聚合站把往月旧闻标为当日新闻的污染；所有价位均来自一手接口或新华社/路透等主流源。</li></ul></div><div class="issue" id="i5"><div class="sub">窗口：2026-10-12 08:30 → 2026-10-12 21:30　｜　生成时间：2026-10-12 21:31</div>
+<div class="headline"><b>油价地缘溢价在霍尔木兹第三艘油轮触雷与沙特机场遇袭中被重新顶高，但俄乌「能源停火」未获基辅确认形成对冲；A股科技成长全线回调而港股高股息托底，说明外部成本冲击与科技财报焦虑正在压制风险偏好，真正的裁决在周三CPI与周四台积电财报。</b></div>
+<h2>一、市场快照</h2><div class="qgrid"><div class="qcard"><h4>能源 / 贵金属</h4><table><tr><td>布伦特原油</td><td class='num'>106.74</td><td class='num'><span class="up">+1.93%</span></td></tr><tr><td>WTI原油</td><td class='num'>93.48</td><td class='num'><span class="up">+1.77%</span></td></tr><tr><td>纽约黄金</td><td class='num'>4,194.56</td><td class='num'><span class="down">-0.52%</span></td></tr><tr><td>纽约白银</td><td class='num'>60.87</td><td class='num'><span class="down">-0.30%</span></td></tr></table></div><div class="qcard"><h4>A股</h4><table><tr><td>上证指数</td><td class='num'>3,797.24</td><td class='num'><span class="down">-0.43%</span></td></tr><tr><td>深证成指</td><td class='num'>12,384.87</td><td class='num'><span class="down">-2.03%</span></td></tr><tr><td>创业板指</td><td class='num'>2,963.82</td><td class='num'><span class="down">-2.61%</span></td></tr><tr><td>科创50</td><td class='num'>1,426.72</td><td class='num'><span class="down">-2.10%</span></td></tr><tr><td>沪深300</td><td class='num'>4,287.98</td><td class='num'><span class="down">-0.68%</span></td></tr></table></div><div class="qcard"><h4>海外</h4><table><tr><td>恒生指数</td><td class='num'>24,271.20</td><td class='num'><span class="up">+0.25%</span></td></tr><tr><td>国企指数</td><td class='num'>8,168.57</td><td class='num'><span class="up">+0.25%</span></td></tr><tr><td>道琼斯</td><td class='num'>51,654.95</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>纳斯达克</td><td class='num'>27,366.17</td><td class='num'><span class="flat">0.00%</span></td></tr><tr><td>标普500</td><td class='num'>7,811.54</td><td class='num'><span class="flat">0.00%</span></td></tr></table></div><div class="qcard"><h4>美债收益率（FRED官方，滞后1–2交易日）</h4><table><tr><td>美债10年</td><td class='num'>5.22%</td><td class='num'><span class="down">-0.06pp</span></td><td class='dim'>2026-10-08</td></tr><tr><td>美债2年</td><td class='num'>4.75%</td><td class='num'><span class="down">-0.02pp</span></td><td class='dim'>2026-10-08</td></tr><tr><td>美债30年</td><td class='num'>5.60%</td><td class='num'><span class="down">-0.07pp</span></td><td class='dim'>2026-10-08</td></tr></table></div></div><div class="sanity wide">数据校验：布伦特−WTI价差 <b>13.26</b> 美元（常态 4~6 美元）— 偏阔但属已知的结构性走阔（中东与大西洋盆地供应割裂），引用前用日K或第二信源复核即可，不判为污染</div><h2>二、持续主线跟踪（跨窗口，不受时间窗限制）</h2><div class="th">
+  <div class="thhead">
+    <span class="tname">中东供应与霍尔木兹风险溢价</span>
+    <span class="tstat" style="color:#dc2626;border-color:#dc2626">升级</span>
+    <span class="tsince">起于 09-24</span>
+    <span class="stars"><span class="st on">★★★★★</span><span class="st off"></span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>本窗口内霍尔木兹第三艘油轮触雷起火，伊朗革命卫队警告关闭AIS的船只将被视为敌对目标；沙特利雅得机场再遭胡塞袭击；伊朗称美方对其七点条件回应「力度不足」，谈判实质停滞。</div>
+  <div class="tso"><b>对定价的含义：</b>Brent上探106.7美元、WTI仅93.5美元，两者价差扩至约13美元，显示霍尔木兹梗阻已将风险溢价集中计入中东海运原油，运输保险与运费持续推升亚洲炼厂成本；只要谈判无协议，油价底部就下不去。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">AI算力资本开支与商业化验证</span>
+    <span class="tstat" style="color:#2563eb;border-color:#2563eb">推进</span>
+    <span class="tsince">起于 09-28</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>博通CEO称未来两年AI计算需求将超过供应，但多数公司AI投入没有回报；台积电周四法说会将给出四季度指引与资本开支更新；英伟达被传洽谈ReflectionAI，亚马逊被传约70亿美元收购Decart。</div>
+  <div class="tso"><b>对定价的含义：</b>资金正从「有订单就涨」切换到「现金流能否兑现」：定制ASIC与云厂商M&amp;A活跃度上升，而单纯算力硬件股在财报前承压；阿斯麦与台积电业绩将决定AI链是分化还是整体下修。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">美联储加息路径与美债长端</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-15</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>美联储理事沃勒表示加息「不必在连续会议上进行」，CME FedWatch显示10月加息概率降至约20%；周三公布9月CPI，市场预计整体同比3.6%、核心2.5%；美债市场因哥伦布日休市。</div>
+  <div class="tso"><b>对定价的含义：</b>10Y收益率维持在5.22%–5.36%的24年高位，Oct pause已被定价，但若CPI超预期仍可能重新点燃抛售；长端高位压制成长股估值，是A股双创与美股纳指相对疲软的重要背景。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">俄乌「能源停火」</span>
+    <span class="tstat" style="color:#d97706;border-color:#d97706">僵持</span>
+    <span class="tsince">起于 10-11</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>特朗普称俄乌已就能源设施停火达成协议，但乌克兰总统泽连斯基回应称「闻所未闻」，协议未获双方正式确认；美国与俄罗斯的柴油供应安排仍存争议。</div>
+  <div class="tso"><b>对定价的含义：</b>该叙事在早盘一度压制油价，但因缺乏确认而效果衰减；若最终落空，俄柴油/炼厂尾部风险回落预期将逆转，给油价提供额外上行期权。</div>
+</div><div class="th">
+  <div class="thhead">
+    <span class="tname">A股政策接力与风格分化</span>
+    <span class="tstat" style="color:#475569;border-color:#475569">观察</span>
+    <span class="tsince">起于 09-30</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="tdesc"><b>本期增量：</b>财政部发布上半年财政政策执行报告，安排5500亿元地方政府债务结存限额，强调「更加积极的财政政策」；A股半导体、光通信板块领跌，科创50跌2.1%，创业板指跌2.61%，但红利指数逆势走强，港股恒指微涨0.25%。</div>
+  <div class="tso"><b>对定价的含义：</b>政策底确认但市场风险偏好仍受外部成本冲击与科技财报焦虑压制，资金从成长切向高股息；后续要看专项债发行节奏与实物工作量落地能否扭转宽货币向宽信用的传导。</div>
+</div><h2>三、本期事件时间线（按重要程度评星）</h2><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 07:30</span>
+    <span class="cat" style="background:#fffbeb;color:#d97706">油价</span>
+    <span class="tt">霍尔木兹第三艘油轮触雷，伊朗警告关闭导航识别系统船只将被视为敌对目标</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★★</span><span class="st off">☆</span></span>
+  </div>
+  <div class="desc">伊朗伊斯兰革命卫队海军公布视频，显示一艘超级油轮在霍尔木兹海峡以南海域触雷爆炸起火；革命卫队称这是10日以来第三艘在「未经授权」航线上触雷的油轮，并宣布所有关闭AIS的船只将被视为敌对目标。</div>
+  <div class="meta"><b>市场反应：</b>Brent原油期货从昨日结算104.72美元跳升至106.43美元，涨幅约1.6%；WTI涨1.77%报93.48美元；Brent-WTI价差扩至约13美元。 </div>
+  <div class="meta so"><b>对定价的含义：</b>航运保险与运费溢价继续计入中东海运原油，亚洲炼厂成本抬升；只要航道梗阻无解，油价底部就受支撑。</div>
+  <div class="meta dim"><b>来源：</b>新华社、央视新闻、中国能源网</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 08:10</span>
+    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
+    <span class="tt">伊朗称美国已接受部分霍尔木兹条件但「力度不足」，谈判停滞</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">伊朗最高国家安全委员会秘书雷扎伊表示，美方通过巴基斯坦、卡塔尔、伊拉克三个渠道回应了伊朗提出的七点谈判框架，但伊朗认为回应力度不足，需美方澄清模糊之处；他警告若美国再侵伊，美在西亚的AI与数据设施将成为打击目标。</div>
+  <div class="meta"><b>市场反应：</b>油价早盘冲高回落，Brent在105.6美元附近拉锯，未能有效突破前高；黄金小幅下跌至4186美元/盎司。 </div>
+  <div class="meta so"><b>对定价的含义：</b>谈判仍处僵局，市场不会快速解除霍尔木兹风险溢价；任何美方军事行动信号都可能立即推高油价。</div>
+  <div class="meta dim"><b>来源：</b>新华社、央视新闻</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 09:00</span>
+    <span class="cat" style="background:#fef2f2;color:#dc2626">地缘</span>
+    <span class="tt">沙特利雅得机场再遭胡塞武装袭击，区域能源设施尾部风险上升</span>
+    <span class="cont" title="跨窗口持续发酵，窗口前有起点或在窗口内继续演化">延续</span>
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">也门胡塞武装发表声明，承认对沙特利雅得哈立德国王国际机场发动袭击；沙特民航总局称机场受损并造成人员受伤。过去24小时沙特对也门多地发动124次空袭，胡塞则以四轮军事行动回击。</div>
+  <div class="meta"><b>市场反应：</b>中东风险溢价继续支撑油价，Brent守在105美元上方；能源基础设施遇袭范围从海上油轮扩大到沙特本土航空设施。 </div>
+  <div class="meta so"><b>对定价的含义：</b>若袭击向沙特原油产能或出口设施蔓延，油价可能脱离当前区间震荡、进入新一轮上行。</div>
+  <div class="meta dim"><b>来源：</b>央视新闻、中国能源网</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 09:30</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">A股半导体与光通信板块领跌，科创50收跌2.1%</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">A股三大指数低开低走，半导体板块收跌2.39%，光通信、GPU概念同步走弱；富信科技跌超13%，有研硅跌超10%，芯原股份、盛合晶微等跌超6%。红利指数逆势涨0.7%，银行、糖业等防御板块获资金流入。</div>
+  <div class="meta"><b>市场反应：</b>科创50跌2.10%，创业板指跌2.61%，深证成指跌2.03%，上证指数跌0.43%；两市成交额约1.1万亿元；半导体板块成交额超1143亿元。 </div>
+  <div class="meta so"><b>对定价的含义：</b>科技成长股同时受到油价上涨推升利率预期、AI商业化焦虑与节前反弹获利了结三重压制；资金切向红利与高股息，反映风险偏好短期收敛。</div>
+  <div class="meta dim"><b>来源：</b>腾讯新闻、东方财富网</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 10:00</span>
+    <span class="cat" style="background:#ecfdf5;color:#059669">政策</span>
+    <span class="tt">财政部安排5500亿元地方政府债务结存限额，强调更加积极的财政政策</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">财政部发布上半年财政政策执行报告，披露已安排使用地方政府债务结存限额5500亿元，其中3000亿元一般债限额分配到县区用于「三保」和一般预算保障，2500亿元专项债限额向有实际需求地区倾斜，聚焦「六张网」建设。</div>
+  <div class="meta"><b>市场反应：</b>政策表态延续积极，但A股反应平淡；市场更关注资金能否转化为实物工作量，而非额度本身。 </div>
+  <div class="meta so"><b>对定价的含义：</b>地方政府融资约束边际松绑，利好基建、公用事业与县域经济，但效果取决于发行节奏和项目落地，短期难以对冲外部风险溢价。</div>
+  <div class="meta dim"><b>来源：</b>财政部、消费日报网、金十数据</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 15:45</span>
+    <span class="cat" style="background:#eff6ff;color:#2563eb">宏观</span>
+    <span class="tt">美联储理事沃勒：加息不必在连续会议上进行，10月可按兵不动</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">美联储理事沃勒在印度出席彭博新经济论坛时表示，仍有必要进一步收紧政策，但加息「不必在连续会议上进行」；克利夫兰联储主席哈玛克同日也发表讲话。市场将此解读为10月会议暂停加息的信号。</div>
+  <div class="meta"><b>市场反应：</b>CME FedWatch显示10月加息概率降至约20%，12月加息概率维持约84%；10Y美债收益率在5.22%–5.36%区间高位盘整。 </div>
+  <div class="meta so"><b>对定价的含义：</b>Oct pause已被定价，但高利率环境延续；若周三CPI超预期，长端收益率可能重新上行，压制成长股估值并支撑美元。</div>
+  <div class="meta dim"><b>来源：</b>智通财经、新浪财经、今日头条</div>
+</div><div class="ev">
+  <div class="evhead">
+    <span class="time">10-12 20:36</span>
+    <span class="cat" style="background:#f5f3ff;color:#7c3aed">科技</span>
+    <span class="tt">AI并购与定制芯片消息密集：英伟达洽谈ReflectionAI，亚马逊拟收购Decart</span>
+    
+    <span class="stars"><span class="st on">★★★</span><span class="st off">☆☆</span></span>
+  </div>
+  <div class="desc">美股盘前消息称，英伟达正与美国AI初创公司ReflectionAI洽谈收购或深化投资；亚马逊据悉正洽谈以约70亿美元收购AI芯片切换与3D世界模型公司Decart；博通CEO称未来两年AI计算需求将超过供应，但多数公司AI投入没有回报。</div>
+  <div class="meta"><b>市场反应：</b>美股三大指数期货涨跌不一，道指期货微涨0.09%，标普500期货持平，纳斯达克100期货跌0.26%；台积电盘前涨超1%。 </div>
+  <div class="meta so"><b>对定价的含义：</b>AI链进入「从算力基础设施转向应用与垂直整合」的阶段，定制ASIC与M&amp;A活跃度上升；大型云厂商仍在加码，但市场对「无回报投入」的容忍度下降。</div>
+  <div class="meta dim"><b>来源：</b>财联社、搜狐财经、新浪财经</div>
+</div><h2>四、后续观察点</h2><ul><li>周三美国9月CPI：整体环比预计0.6%、同比3.6%，核心同比2.5%</li><li>周四台积电三季度财报与法说会：毛利率、四季度指引、2026-2027年资本开支</li><li>周三阿斯麦三季度财报：新增订单、EUV产能与2027-2028年增长能见度</li><li>霍尔木兹航道实际通行量与VLCC运价是否继续创新高</li><li>俄乌「能源停火」能否得到双方正式确认并落实</li></ul><h2>五、口径与存疑</h2><ul><li>本窗口为正常晚间版（距上期终点约12.4小时，未触发补更）。</li><li>布伦特−WTI价差今日扩至13.26美元，远超正常4−6美元区间；经汇通网、Yahoo Finance、中国能源网等多源复核，当前Brent约106美元、WTI约93美元，价差结构相似，判断为霍尔木兹梗阻与运输成本导致的Brent溢价结构性扩大，非单一数据源污染。</li><li>A股与港股走势分化：上证指数跌0.43%、深证成指跌2.03%、创业板指跌2.61%、科创50跌2.10%；恒生指数涨0.25%、国企指数涨0.25%。A股科技成长承压，红利与金融板块托底；港股受高股息与腾讯等权重股支撑相对抗跌。</li><li>美债市场因哥伦布日休市，10Y/2Y/30Y收益率沿用10月8日FRED数据，分别为5.22%、4.75%、5.60%。</li><li>行情价位以fetch_quotes.py一手接口为准；事件与因果判断来自新华社、央视、财联社、新浪财经、金十数据等主流来源；聚合站信息已做交叉核验。</li></ul></div>
 <footer>价格为交易所/官方接口一手数据（新浪行情 + FRED）；事件与因果来自媒体，已做信源分级。
 ★★★★★=跨资产重定价；★★★★=单市场显著反应；★★★=主流媒体报道且市场有反应；★★=媒体有报道市场无反应；★=背景信息。星级同时计入影响的持续性：跨日乃至跨周改变定价路径的事件会上调。「持续主线跟踪」不受时间窗口限制。</footer>
-</div></body></html>
+</div><script>
+(function(){
+  var tabs=document.querySelectorAll('.tab');
+  var issues=document.querySelectorAll('.issue');
+  function show(id){
+    var i;
+    for(i=0;i<tabs.length;i++){tabs[i].classList.toggle('active',tabs[i].getAttribute('data-t')===id);}
+    for(i=0;i<issues.length;i++){issues[i].classList.toggle('active',issues[i].id===id);}
+  }
+  for(var k=0;k<tabs.length;k++){
+    (function(b){b.addEventListener('click',function(){show(b.getAttribute('data-t'));});})(tabs[k]);
+  }
+})();
+</script></body></html>
